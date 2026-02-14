@@ -1,23 +1,21 @@
-import {BrowserRouter} from "react-router-dom";
-import Navbar from "./components/Navbar"
-import './index.css'
-import AppRoutes from "./pages/routes/AppRoutes";
-import Hero from "./components/Hero";
-import AboutSection from "./components/About";
-import ProductsSection from "./components/Productsection";
-import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
 
-function App() {
+import DigitalStandee from "../categories/DigitalStandee";
+import IndoorLED from "../categories/IndoorLED";
+import LEDVideo from "../categories/LEDVideo";
+import OutdoorLED from "../categories/OutdoorLED";
+import WallMount from "../categories/WallMount";
+
+const AppRoutes = () => {
   return (
-    <BrowserRouter>
-    <Navbar/>
-    <Hero/>
-    <AboutSection/>
-    <ProductsSection/>
-    <Footer/>
-    <AppRoutes/>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/digital-standee" element={<DigitalStandee />} />
+      <Route path="/indoor-led" element={<IndoorLED />} />
+      <Route path="/led-video" element={<LEDVideo />} />
+      <Route path="/outdoor-led" element={<OutdoorLED />} />
+      <Route path="/wall-mount" element={<WallMount />} />
+    </Routes>
   );
-}
+};
 
-export default App;
+export default AppRoutes;
