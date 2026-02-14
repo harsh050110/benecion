@@ -27,7 +27,8 @@ const Hero = () => {
             <div className="relative overflow-hidden rounded-xl group cursor-pointer">
               <img
                 src={caseImage}
-                alt="Case Study"
+                alt="Outdoor LED video wall installation"
+
                 className="w-full h-64 object-cover group-hover:scale-105 transition duration-500"
               />
               <div className="absolute bottom-0 bg-gradient-to-t from-black/80 to-transparent p-4">
@@ -54,7 +55,8 @@ const Hero = () => {
           <div className="overflow-hidden rounded-2xl shadow-2xl">
             <img
               src={caseImage2}
-              alt="Case Study"
+              alt="Premium indoor LED display panel"
+
               className="w-full h-[600px] object-cover"
             />
           </div>
