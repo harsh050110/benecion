@@ -83,15 +83,18 @@ const Footer = () => {
 
           {/* Social Icons */}
           <div className="flex gap-4 mt-6">
-            <a href="#" className="bg-[#2B2B2B] p-3 rounded-full hover:bg-yellow-500 transition">
-              <FaTwitter />
-            </a>
-            <a href="#" className="bg-[#2B2B2B] p-3 rounded-full hover:bg-yellow-500 transition">
-              <FaInstagram />
-            </a>
-            <a href="#" className="bg-[#2B2B2B] p-3 rounded-full hover:bg-yellow-500 transition">
-              <FaFacebookF />
-            </a>
+            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+  Instagram
+</a>
+
+<a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+  Twitter
+</a>
+
+<a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+  LinkedIn
+</a>
+
           </div>
 
         </div>
