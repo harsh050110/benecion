@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
 import DigitalStandee from "../categories/DigitalStandee";
-import IndoorLED from "../categories/IndoorLED";
+import IndoorLED from "../categories/IndoorL";
 import LEDVideo from "../categories/LEDVideo";
 import OutdoorLED from "../categories/OutdoorLED";
 import WallMount from "../categories/WallMount";
