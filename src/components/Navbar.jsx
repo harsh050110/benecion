@@ -1,0 +1,153 @@
+import { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+
+const CSSMathProduct = [
+  { name: "Outdoor LED", path: "/outdoor-led" },
+  { name: "Indoor LED", path: "/indoor-led" },
+  { name: "LED Video Standee", path: "/led-video-standee" },
+  { name: "Digital Standee", path: "/digital-standee" },
+  { name: "WallMount", path: "/wallmount" },
+];
+
+const Navbar = () => {
+  const [open, setOpen] = useState(false);
+  const [categoriesOpen, setCategoriesOpen] = useState(false);
+
+  const linkClass =
+    "block text-white hover:text-blue-400 transition font-medium";
+
+  return (
+    <nav className="w-full bg-[#06283D] sticky top-0 z-50 shadow-md">
+      <div className="max-w-[1470px] w-full h-[80px] mx-auto px-6 flex items-center justify-between">
+
+        <Link to="/" className="flex items-center gap-2">
+          <span className="text-xl font-bold text-white">
+            Beneicon
+          </span>
+        </Link>
+
+        <div className="hidden lg:flex gap-8 items-center">
+
+          <NavLink to="/" className={linkClass}>
+            Home
+          </NavLink>
+
+          <div className="relative">
+            <button
+              onClick={() => setCategoriesOpen(!categoriesOpen)}
+              className="flex items-center gap-2 text-white hover:text-blue-400 font-medium"
+            >
+              Categories
+              <span>{categoriesOpen ? "" : ""}</span>
+            </button>
+
+            {categoriesOpen && (
+              <div className="absolute left-0 top-full mt-3 w-56 bg-white rounded-xl shadow-xl">
+                <ul className="py-3">
+                  {CSSMathProduct.map((category) => (
+                    <li key={category.path}>
+                      <NavLink
+                        to={category.path}
+                        onClick={() => setCategoriesOpen(false)}
+                        className={({ isActive }) =>
+                          `block px-5 py-2 text-sm transition ${
+                            isActive
+                              ? "text-white"
+                              : "text-gray-600 hover:text-black-500"
+                          }`
+                        }
+                      >
+                        {category.name}
+                      </NavLink>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+
+          <NavLink to="/gallery" className={linkClass}>
+            Gallery
+          </NavLink>
+
+          <NavLink to="/aboutus" className={linkClass}>
+            About Us
+          </NavLink>
+
+          <NavLink to="/contactus" className={linkClass}>
+            Contact Us
+          </NavLink>
+        </div>
+
+        <button
+          onClick={() => setOpen(!open)}
+          className="lg:hidden text-white text-3xl"
+        >
+          {open ? "✕" : "☰"}
+        </button>
+      </div>
+
+      {open && (
+        <div className="lg:hidden bg-black px-6 pb-6 space-y-4">
+
+          <NavLink
+            to="/"
+            className="block text-white"
+            onClick={() => setOpen(false)}
+          >
+            Home
+          </NavLink>
+
+          <button
+            onClick={() => setCategoriesOpen(!categoriesOpen)}
+            className="flex justify-between w-full text-white"
+          >
+            Categories
+            <span>{categoriesOpen ? "−" : "+"}</span>
+          </button>
+
+          {categoriesOpen &&
+            CSSMathProduct.map((category) => (
+              <NavLink
+                key={category.path}
+                to={category.path}
+                className="block text-white pl-4"
+                onClick={() => {
+                  setOpen(false);
+                  setCategoriesOpen(false);
+                }}
+              >
+                {category.name}
+              </NavLink>
+            ))}
+
+          <NavLink
+            to="/gallery"
+            className="block text-white"
+            onClick={() => setOpen(false)}
+          >
+            Gallery
+          </NavLink>
+
+          <NavLink
+            to="/aboutus"
+            className="block text-white"
+            onClick={() => setOpen(false)}
+          >
+            About Us
+          </NavLink>
+
+          <NavLink
+            to="/contactus"
+            className="block text-white"
+            onClick={() => setOpen(false)}
+          >
+            Contact Us
+          </NavLink>
+        </div>
+      )}
+    </nav>
+  );
+};
+
+export default Navbar;
