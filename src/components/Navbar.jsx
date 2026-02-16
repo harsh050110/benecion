@@ -14,7 +14,7 @@ const Navbar = () => {
   const [categoriesOpen, setCategoriesOpen] = useState(false);
 
   const linkClass =
-    "block text-white hover:text-blue-400 transition font-medium";
+    "block text-blue-700 hover:text-blue-400 transition font-medium";
 
   return (
     <nav className="w-full bg-[#F4F2F3]  sticky top-0 z-50 shadow-md">
@@ -26,7 +26,7 @@ const Navbar = () => {
           </span>
         </Link>
 
-        <div className="hidden lg:flex gap-8 items-center">
+        <div className=" text-blue-700 hidden lg:flex gap-8 items-center">
 
           <NavLink to="/" className={linkClass}>
             Home
@@ -42,7 +42,7 @@ const Navbar = () => {
             </button>
 
             {categoriesOpen && (
-              <div className="absolute left-0 top-full mt-3 w-56 bg-white rounded-xl shadow-xl">
+              <div className="absolute left-0 top-full mt-3 w-56 bg-[#F4F2F3] rounded-xl shadow-xl">
                 <ul className="py-3">
                   {CSSMathProduct.map((category) => (
                     <li key={category.path}>
@@ -53,7 +53,7 @@ const Navbar = () => {
                           `block px-5 py-2 text-sm transition ${
                             isActive
                               ? "text-blue-700"
-                              : "text-gray-600 hover:text-blue-500"
+                              : "text-blue-600 hover:text-blue-500"
                           }`
                         }
                       >
