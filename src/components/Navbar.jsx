@@ -17,11 +17,11 @@ const Navbar = () => {
     "block text-white hover:text-blue-400 transition font-medium";
 
   return (
-    <nav className="w-full bg-[#06283D] sticky top-0 z-50 shadow-md">
+    <nav className="w-full bg-[#F4F2F3]  sticky top-0 z-50 shadow-md">
       <div className="max-w-[1470px] w-full h-[80px] mx-auto px-6 flex items-center justify-between">
 
         <Link to="/" className="flex items-center gap-2">
-          <span className="text-xl font-bold text-white">
+          <span className="text-xl font-bold text-blue-700">
             Beneicon
           </span>
         </Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <div className="relative">
             <button
               onClick={() => setCategoriesOpen(!categoriesOpen)}
-              className="flex items-center gap-2 text-white hover:text-blue-400 font-medium"
+              className="flex items-center gap-2 text-blue-700 hover:text-blue-400 font-medium"
             >
               Categories
               <span>{categoriesOpen ? "" : ""}</span>
@@ -52,8 +52,8 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `block px-5 py-2 text-sm transition ${
                             isActive
-                              ? "text-white"
-                              : "text-gray-600 hover:text-black-500"
+                              ? "text-blue-700"
+                              : "text-gray-600 hover:text-blue-500"
                           }`
                         }
                       >
@@ -81,18 +81,18 @@ const Navbar = () => {
 
         <button
           onClick={() => setOpen(!open)}
-          className="lg:hidden text-white text-3xl"
+          className="lg:hidden text-blue-700 text-3xl"
         >
           {open ? "✕" : "☰"}
         </button>
       </div>
 
       {open && (
-        <div className="lg:hidden bg-black px-6 pb-6 space-y-4">
+        <div className="lg:hidden bg-[#F4F2F3]  px-6 pb-6 space-y-4">
 
           <NavLink
             to="/"
-            className="block text-white"
+            className="block text-blue-700"
             onClick={() => setOpen(false)}
           >
             Home
@@ -100,7 +100,7 @@ const Navbar = () => {
 
           <button
             onClick={() => setCategoriesOpen(!categoriesOpen)}
-            className="flex justify-between w-full text-white"
+            className="flex justify-between w-full text-blue-700"
           >
             Categories
             <span>{categoriesOpen ? "−" : "+"}</span>
@@ -111,7 +111,7 @@ const Navbar = () => {
               <NavLink
                 key={category.path}
                 to={category.path}
-                className="block text-white pl-4"
+                className="block text-blue-700 pl-4"
                 onClick={() => {
                   setOpen(false);
                   setCategoriesOpen(false);
@@ -123,7 +123,7 @@ const Navbar = () => {
 
           <NavLink
             to="/gallery"
-            className="block text-white"
+            className="block text-blue-700"
             onClick={() => setOpen(false)}
           >
             Gallery
@@ -131,7 +131,7 @@ const Navbar = () => {
 
           <NavLink
             to="/aboutus"
-            className="block text-white"
+            className="block text-blue-700"
             onClick={() => setOpen(false)}
           >
             About Us
@@ -139,7 +139,7 @@ const Navbar = () => {
 
           <NavLink
             to="/contactus"
-            className="block text-white"
+            className="block text-blue-700"
             onClick={() => setOpen(false)}
           >
             Contact Us

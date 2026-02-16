@@ -12,7 +12,7 @@ const products = [
 
 const ProductsSection = () => {
   return (
-    <section className="bg-[#06283D] py-24 px-6">
+    <section className="bg-[#F4F2F3]  py-24 px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}
@@ -22,10 +22,10 @@ const ProductsSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-20"
         >
-          <h2 className="text-4xl  text-white lg:text-5xl font-bold mb-6">
+          <h2 className="text-4xl  text-blue-700 lg:text-5xl font-bold mb-6">
             Our Products
           </h2>
-          <p className="text-gray-300 max-w-2xl mx-auto">
+          <p className="text-gray-600 max-w-2xl mx-auto">
             Advanced LED display solutions engineered for performance,
             durability, and visual impact.
           </p>
