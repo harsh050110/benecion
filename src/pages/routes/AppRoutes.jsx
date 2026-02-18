@@ -1,19 +1,24 @@
 import { Routes, Route } from "react-router-dom";
 
 import DigitalStandee from "../categories/DigitalStandee";
-import IndoorLED from "../categories/IndoorLED";
-import LEDVideo from "../categories/LEDVideo";
-import OutdoorLED from "../categories/OutdoorLED";
-import WallMount from "../categories/WallMount";
+import CubeIndoor from "../categories/cubein";
+import CubeOutdoor from "../categories/cubeout";
+import IndoorDisplay from"../categories/leddisplayin";
+import OutdoorDisplay from "../categories/leddisplayout";
+import StandeeIndoor from "../categories/standeein";
+import StandeeOutdoor from "../categories/standeeout";
 
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/digital-standee" element={<DigitalStandee />} />
-      <Route path="/indoor-led" element={<IndoorLED />} />
-      <Route path="/led-video" element={<LEDVideo />} />
-      <Route path="/outdoor-led" element={<OutdoorLED />} />
-      <Route path="/wall-mount" element={<WallMount />} />
+      <Route path="/led-video-display-outdoor" element={<OutdoorDisplay />} />
+<Route path="/led-video-display-indoor" element={<IndoorDisplay />} />
+<Route path="/led-video-cube-outdoor" element={<CubeOutdoor />} />
+<Route path="/led-video-cube-indoor" element={<CubeIndoor />} />
+<Route path="/led-video-standee-indoor" element={<StandeeIndoor />} />
+<Route path="/led-video-standee-outdoor" element={<StandeeOutdoor />} />
+<Route path="/digital-standee" element={<DigitalStandee />} />
+
     </Routes>
   );
 };

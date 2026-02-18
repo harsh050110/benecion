@@ -2,12 +2,15 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 const CSSMathProduct = [
-  { name: "Outdoor LED", path: "/outdoor-led" },
-  { name: "Indoor LED", path: "/indoor-led" },
-  { name: "LED Video Standee", path: "/led-video-standee" },
+  { name: "LED Video Display Outdoor", path: "/led-video-display-outdoor" },
+  { name: "LED Video Display Indoor", path: "/led-video-display-indoor" },
+  { name: "LED Video Cube Outdoor", path: "/led-video-cube-outdoor" },
+  { name: "LED Video Cube Indoor", path: "/led-video-cube-indoor" },
+  { name: "LED Video Display Standee Indoor", path: "/led-video-standee-indoor" },
+  { name: "LED Video Display Standee Outdoor", path: "/led-video-standee-outdoor" },
   { name: "Digital Standee", path: "/digital-standee" },
-  { name: "WallMount", path: "/wallmount" },
 ];
+
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
