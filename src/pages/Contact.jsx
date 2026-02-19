@@ -33,7 +33,7 @@ const Contact = () => {
             />
           </div>
 
-          <div className="absolute bottom-6 left-6 bg-[#3b7d7c] text-white px-6 py-4 rounded-xl shadow-lg">
+          <div className="absolute bottom-6 left-6 bg-[#3383e4] text-white px-6 py-4 rounded-xl shadow-lg">
             <p className="text-2xl font-bold">24/7</p>
             <p className="text-sm opacity-90">Always Open</p>
           </div>

@@ -8,6 +8,7 @@ import OutdoorDisplay from "../categories/leddisplayout";
 import StandeeIndoor from "../categories/standeein";
 import StandeeOutdoor from "../categories/standeeout";
 import Contact from "../Contact";
+import About from "../About";
 
 const AppRoutes = () => {
   return (
@@ -20,7 +21,8 @@ const AppRoutes = () => {
 <Route path="/led-video-standee-indoor" element={<StandeeIndoor />} />
 <Route path="/led-video-standee-outdoor" element={<StandeeOutdoor />} />
 <Route path="/digital-standee" element={<DigitalStandee />} />
-<Route path="/contact" element={<Contact />}/>
+<Route path="/contactus" element={<Contact />}/>
+<Route path="/aboutus" element={<About />}/>
 
     </Routes>
   );
