@@ -1,12 +1,18 @@
 import { motion } from "framer-motion";
+import img1 from "../Assets/asset01.jpg";
+import img2 from "../Assets/asset02.jpg";
+import img3 from "../Assets/asset03.jpg";
+import img4 from "../Assets/asset04.jpg";
+import img5 from "../Assets/asset05.jpg";
+import img6 from "../Assets/asset06.jpg";
 
 const images = [
-  "/led1.jpg",
-  "/led2.jpg",
-  "/led3.jpg",
-  "/led4.jpg",
-  "/led5.jpg",
-  "/led6.jpg",
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6
 ];
 
 const Hero = () => {

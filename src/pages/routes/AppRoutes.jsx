@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-
+import Home from "../Home";
 import DigitalStandee from "../categories/DigitalStandee";
 import CubeIndoor from "../categories/cubein";
 import CubeOutdoor from "../categories/cubeout";
@@ -11,6 +11,7 @@ import StandeeOutdoor from "../categories/standeeout";
 const AppRoutes = () => {
   return (
     <Routes>
+      <Route path="/" element={<Home />}/>
       <Route path="/led-video-display-outdoor" element={<OutdoorDisplay />} />
 <Route path="/led-video-display-indoor" element={<IndoorDisplay />} />
 <Route path="/led-video-cube-outdoor" element={<CubeOutdoor />} />
