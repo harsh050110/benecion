@@ -12,6 +12,7 @@ const Home = () => {
       <AboutSection />
       <WhyChooseSection />
       <ProductsSection />
+      
     </>
   );
 };

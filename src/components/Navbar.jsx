@@ -40,7 +40,7 @@ const Navbar = () => {
               onClick={() => setCategoriesOpen(!categoriesOpen)}
               className="flex items-center gap-2 text-blue-700 hover:text-blue-400 font-medium"
             >
-              Categories
+              Products
               <span>{categoriesOpen ? "" : ""}</span>
             </button>
 
