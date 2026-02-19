@@ -89,7 +89,7 @@ const Contact = () => {
               <div>
                 <p className="font-semibold">Address</p>
                 <p className="text-gray-600 max-w-sm">
-                  Binge Learning, Power House Road, Ratlam – 457001 (M.P.), India
+                  Benecion, Power House Road, Ratlam – 457001 (M.P.), India
                 </p>
               </div>
             </div>
