@@ -1,8 +1,8 @@
 import React from "react";
 import indoorImg from "../../Assets/indoor-led.jpg";
-import adImg from "../../Assets/asset02.jpg";
-import controlImg from "../../Assets/asset02.jpg";
-import retailImg from "../../Assets/asset02.jpg";
+import adImg from "../../Assets/indoor-led2.jpg";
+import controlImg from "../../Assets/LED Video Wall Indoor P-2.5.jpg";
+import retailImg from "../../Assets/indoor-led3.jpg";
 
 import { motion } from "framer-motion";
 import { Sparkles, Monitor, Puzzle, Users, Maximize2, Wrench } from "lucide-react";
