@@ -1,14 +1,41 @@
+import {Link} from "react-router-dom";
 import { motion } from "framer-motion";
+import outdoorImg from "../Assets/outdoor-led.jpg";
+import indoorImg from "../Assets/indoor-led.jpg";
+// import cubeOutImg from "../Assets/cube-outdoor.jpg";
+// import cubeInImg from "../Assets/cube-indoor.jpg";
+import standeeInImg from "../Assets/standee-indoor.jpg";
+import standeeOutImg from "../Assets/standee-outdoor.jpg";
+import digitalStandeeImg from "../Assets/digital-standee.jpg";
 
 const products = [
-  "Led Video Display Outdoor",
-  "Led Video Display Indoor",
-  "Led Video Cube Outdoor",
-  "Led Video Cube Indoor",
-  "Led Video Display Standee Indoor",
-  "Led Video Display Standee Outdoor",
-  "Digital Standee",
+  { 
+    name: "Led Video Display Outdoor", 
+    image: outdoorImg,
+    path: "/led-video-display-outdoor"
+  },
+  { 
+    name: "Led Video Display Indoor", 
+    image: indoorImg,
+    path: "/led-video-display-indoor"
+  },
+  { 
+    name: "Led Video Display Standee Indoor", 
+    image: standeeInImg,
+    path: "/led-video-standee-indoor"
+  },
+  { 
+    name: "Led Video Display Standee Outdoor", 
+    image: standeeOutImg,
+    path: "/led-video-standee-outdoor"
+  },
+  { 
+    name: "Digital Standee", 
+    image: digitalStandeeImg,
+    path: "/digital-standee"
+  },
 ];
+
 
 const ProductsSection = () => {
   return (
@@ -44,26 +71,30 @@ const ProductsSection = () => {
             >
 
               {/* Image */}
-              <div className="overflow-hidden">
-                <img
-                  src="https://images.unsplash.com/photo-1581090700227-4c4f50c87f98"
-                  alt={product}
-                  className="w-full h-60 object-cover group-hover:scale-110 transition duration-700"
-                />
+              <div className="overflow-hidden ">
+               <img
+  src={product.image}
+  alt={product.name}
+  className="w-full h-60 object-contain group-hover:scale-110 transition duration-700"
+/>
+
               </div>
 
               {/* Title */}
               <div className="p-6 text-center">
-                <h3 className="text-lg font-semibold mb-4 group-hover:text-blue-600 transition">
-                  {product}
-                </h3>
+  <h3 className="text-lg font-semibold mb-4 group-hover:text-blue-600 transition">
+    {product.name}
+  </h3>
 
-                <div className="h-[2px] w-0 bg-blue-600 mx-auto group-hover:w-16 transition-all duration-500"></div>
+  <div className="h-[2px] w-0 bg-blue-600 mx-auto group-hover:w-16 transition-all duration-500"></div>
+  <Link
+  to={product.path}
+  className="inline-block mt-6 px-6 py-2 border border-blue-600 text-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition"
+>
+  Explore →
+</Link>
 
-                <button className="mt-6 px-6 py-2 border border-blue-600 text-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition">
-                  Explore →
-                </button>
-              </div>
+</div>
 
             </motion.div>
           ))}

@@ -141,7 +141,7 @@ const Navbar = () => {
           </NavLink>
 
           <NavLink
-            to="/contactus"
+            to="/Contact"
             className="block text-blue-700"
             onClick={() => setOpen(false)}
           >
