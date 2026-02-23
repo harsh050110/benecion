@@ -1,4 +1,11 @@
 import React from "react";
+import {Link} from "react-router-dom";
+import indoorp1_5 from "../../Assets/products/indoor-p15.jpg";
+import indoorp1_8 from "../../Assets/products/indoor-p18.png";
+import indoorp2 from "../../Assets/products/indoorp2.jpeg";
+import indoorp2_5 from "../../Assets/products/indoor-p25.png";
+import indoorp4 from "../../Assets/products/indoorp4.jpg";
+
 import indoorImg from "../../Assets/indoor-led.jpg";
 import adImg from "../../Assets/indoor-led2.jpg";
 import controlImg from "../../Assets/LED Video Wall Indoor P-2.5.jpg";
@@ -153,6 +160,74 @@ const IndoorDisplay = () => {
 
         </div>
       </section>
+     <section className="bg-[#F4F2F3] py-20 px-6">
+  <div className="max-w-7xl mx-auto">
+
+    <h2 className="text-3xl font-bold mb-12">
+      Related Products
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-10">
+
+      <Link to="/indoor-p15" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img
+          src={indoorp1_5}
+          alt="Indoor LED P-1.5"
+          className="h-64 w-full object-cover group-hover:scale-105 transition duration-500"
+        />
+        <div className="p-6 text-center font-semibold">
+          Indoor LED P-1.5
+        </div>
+      </Link>
+
+      <Link to="/indoor-p18" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img
+          src={indoorp1_8}
+          alt="Indoor LED P-1.8"
+          className="h-64 w-full object-cover group-hover:scale-105 transition duration-500"
+        />
+        <div className="p-6 text-center font-semibold">
+          Indoor LED P-1.8
+        </div>
+      </Link>
+
+      <Link to="/indoor-p25" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img
+          src={indoorp2_5}  
+          alt="Indoor LED P-2.5"
+          className="h-64 w-full object-cover group-hover:scale-105 transition duration-500"
+        />
+        <div className="p-6 text-center font-semibold">
+          Indoor LED P-2.5
+        </div>
+      </Link>
+
+      <Link to="/indoor-p2" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img
+          src={indoorp2}
+          alt="Indoor LED P-2"
+          className="h-64 w-full object-cover group-hover:scale-105 transition duration-500"
+        />
+        <div className="p-6 text-center font-semibold">
+          Indoor LED P-2
+        </div>
+      </Link>
+
+      <Link to="/indoor-p4" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img
+          src={indoorp4}
+          alt="Indoor LED P-4"
+          className="h-64 w-full object-cover group-hover:scale-105 transition duration-500"
+        />
+        <div className="p-6 text-center font-semibold">
+          Indoor LED P-4
+        </div>
+      </Link>
+
+    </div>
+  </div>
+</section>
+
 
     </>
   );

@@ -4,6 +4,8 @@ import {
   FaMapMarkerAlt 
 } from "react-icons/fa";
 
+import { FaTwitter, FaFacebookF, FaInstagram, FaYoutube, FaWhatsapp,FaLinkedin } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -68,12 +70,13 @@ const Footer = () => {
 
             <div className="flex items-start gap-3">
               <FaEnvelope className="mt-1 text-yellow-500" />
-              <span>info@beneicon.com</span>
+              <span>Beneicon.com </span>
             </div>
 
             <div className="flex items-start gap-3">
               <FaPhoneAlt className="mt-1 text-yellow-500" />
-              <span>+91 62605 15436</span>
+              <span>+91 70659 93135
+</span>
             </div>
 
             <div className="flex items-start gap-3">
@@ -88,17 +91,35 @@ const Footer = () => {
 
           {/* Social Icons */}
           <div className="flex gap-4 mt-6">
-            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
-  Instagram
-</a>
+  <a
+    href="https://x.com/beneicon"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-[#1DA1F2] transition"
+  >
+    <FaTwitter className="text-white text-sm" />
+  </a>
 
-<a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-  Twitter
-</a>
-
-<a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-  LinkedIn
-</a>
+  <a
+    href="https://www.facebook.com/people/Beneicon/61579151452650/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-[#1877F2] transition"
+  >
+    <FaFacebookF className="text-white text-sm" />
+  </a>
+  <a
+    href="https://wa.me/+917065993135"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-[#25D366] transition"
+  >
+    <FaWhatsapp className="text-white text-sm" />
+  </a>
+  <a href="https://www.linkedin.com/company/beneicon/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-[#0077B5] transition"
+  >
+    <FaLinkedin className="text-white text-sm" />
+  </a>
 
           </div>
 
