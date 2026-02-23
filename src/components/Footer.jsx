@@ -70,7 +70,7 @@ const Footer = () => {
 
             <div className="flex items-start gap-3">
               <FaEnvelope className="mt-1 text-yellow-500" />
-              <span>Beneicon.com </span>
+              <span>beneicon@gmail.com<br/> sales@beneicon.com</span>
             </div>
 
             <div className="flex items-start gap-3">
@@ -82,7 +82,7 @@ const Footer = () => {
             <div className="flex items-start gap-3">
               <FaMapMarkerAlt className="mt-1 text-yellow-500" />
               <span>
-                Industrial Area, LED Tech Park,<br />
+                482, Sunview Apt., Dwarka Sector 11 <br /> Dwarka, Delhi-110075
                 India
               </span>
             </div>

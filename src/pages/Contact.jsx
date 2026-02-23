@@ -45,8 +45,8 @@ const Contact = () => {
         {/* Map */}
         <div className="rounded-2xl overflow-hidden shadow-lg">
           <iframe
-            title="Binge Learning Location"
-            src=""
+            title="Beneicon Location"
+            src="https://www.google.com/maps?ll=28.586388,77.047218&z=16&t=m&hl=en-IN&gl=US&mapclient=embed&cid=12718320328044025966"
             className="w-full h-[380px] border-0"
             loading="lazy"
           ></iframe>
@@ -66,7 +66,7 @@ const Contact = () => {
               <div>
                 <p className="font-semibold">Email</p>
                 <p className="text-gray-600">
-                  bingelearning@gmail.com
+                  beneicon@gmail.com
                 </p>
               </div>
             </div>
@@ -77,8 +77,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="font-semibold">Phone</p>
-                <p className="text-gray-600">+91 98765 43210</p>
-                <p className="text-gray-600">+91 91234 56789</p>
+                <p className="text-gray-600">+91-7065993135</p>
               </div>
             </div>
 
@@ -89,7 +88,7 @@ const Contact = () => {
               <div>
                 <p className="font-semibold">Address</p>
                 <p className="text-gray-600 max-w-sm">
-                  Benecion, Power House Road, Ratlam – 457001 (M.P.), India
+                  482, Sunview Apt., Dwarka Sector 11, Dwarka, Delhi-110075
                 </p>
               </div>
             </div>
