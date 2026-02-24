@@ -1,29 +1,34 @@
 import { motion } from "framer-motion";
-
+import Education from "../Assets/Education.jpg";
+import corporate from "../Assets/Corporate.jpg";
+import government from "../Assets/Government.jpg";
+import banking from "../Assets/Banking.jpg";
+import hospitality from "../Assets/Hospitality.jpg";
+import retail from "../Assets/Retail.jpg";
 const industries = [
   {
     title: "Education",
-    image: "/education.jpg",
+    image: Education,
   },
   {
     title: "Corporate",
-    image: "/corporate.jpg",
+    image: corporate,
   },
   {
     title: "Government",
-    image: "/government.jpg",
+    image: government,
   },
   {
     title: "Banking",
-    image: "/banking.jpg",
+    image: banking,
   },
   {
     title: "Hospitality",
-    image: "/hospitality.jpg",
+    image: hospitality,
   },
   {
     title: "Retail",
-    image: "/retail.jpg",
+    image: retail,
   },
 ];
 
