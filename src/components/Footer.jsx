@@ -130,7 +130,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-gray-700 mt-16 pt-6 text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center">
         <p>© 2025 Beneicon Pixel LLP. All rights reserved.</p>
-        <p>Designed & Developed by Harsh</p>
+        <p>Designed & Developed by Beneicon <a href="https://harshdev05.vercel.app" className="text-yellow-500 hover:underline">(Harsh Kumar)</a></p>
       </div>
 
     </footer>
