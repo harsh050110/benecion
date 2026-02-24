@@ -1,52 +1,105 @@
-import React from "react";
+import React, { useState } from "react";
 
-import g1 from"../Assets/indoor-led3.jpg";
-import g2 from"../Assets/asset06.jpg";
-import g3 from"../Assets/digital-standee.jpg";
-import g4 from"../Assets/LED Video Wall Indoor P-2.5.jpg";
-import g5 from "../Assets/outdoor-led.jpg";
-import g6 from"../Assets/standee-indoor.jpg";
+import g1 from "../Assets/products/outdoor4.jpg";
+import g2 from "../Assets/products/indoorp4.jpg";
+import g3 from "../Assets/products/indoorp2.jpeg";
+import g4 from "../Assets/products/indoor-p18.png";
+import g5 from "../Assets/products/indoor-p15.jpg";
+import g6 from "../Assets/asset01.jpg";
+import g7 from "../Assets/asset02.jpg";
+import g8 from "../Assets/asset03.jpg";
+import g9 from "../Assets/asset04.jpg";
+import g10 from "../Assets/asset05.jpg";
+import g11 from "../Assets/asset06.jpg";
+import g12 from "../Assets/digital-standee.jpg";
+import g13 from "../Assets/indoor-led.jpg";
+import g14 from "../Assets/indoor-led2.jpg";
+import g15 from "../Assets/indoor-led3.jpg";
+import g16 from "../Assets/LED Video Wall Indoor P-2.5.jpg";
+import g17 from "../Assets/standee-indoor.jpg";
+import g18 from "../Assets/outdoor-led.jpg";
+import g19 from "../Assets/standee-outdoor.jpg";
 
-const galleryImages = [g1, g2, g3, g4, g5, g6];
+// Example structure — continue for all 62
+const galleryData = [
+  { img: g1, category: "LED Complete Project" },
+  { img: g2, category: "Audio Visuals" },
+  { img: g3, category: "LED Panel Design" },
+  { img: g4, category: "LED Complete Project" },
+  { img: g5, category: "Audio Visuals" },
+  { img: g6, category: "LED Panel Design"},
+  {img: g7, category: "LED Complete Project"},
+  {img: g8, category: "Audio Visuals"},
+  {img: g9, category: "LED Panel Design"},
+  {img:g10, category: "LED Complete Project"},
+  {img:g11, category: "Audio Visuals"},
+  {img:g12, category: "LED Panel Design"},
+  {img:g13, category: "LED Complete Project"},
+  {img:g14, category: "Audio Visuals"},
+  {img:g15, category: "LED Panel Design"},
+  {img:g16, category: "LED Complete Project"},
+  {img:g17, cateogry: "Audio Visuals"},
+  {img:g18, category: "LED Panel Design"},
+  {img:g19, category: "LED Complete Project"}
+];
 
 const Gallery = () => {
+  const [activeFilter, setActiveFilter] = useState("All");
+
+  const categories = [
+    "All",
+    "LED Complete Project",
+    "Audio Visuals",
+    "LED Panel Design",
+  ];
+
+  const filteredImages =
+    activeFilter === "All"
+      ? galleryData
+      : galleryData.filter((item) => item.category === activeFilter);
+
+  const getCount = (category) => {
+    if (category === "All") return galleryData.length;
+    return galleryData.filter((item) => item.category === category).length;
+  };
+
   return (
     <div className="w-full bg-white min-h-screen py-20">
-
       <div className="max-w-7xl mx-auto px-6">
 
-        {/* HEADING */}
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 text-blue-700">
+        {/* Heading */}
+        <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">
           Gallery
         </h1>
 
-        {/* FILTER BUTTONS */}
+        {/* Filter Buttons */}
         <div className="flex flex-wrap justify-center gap-4 mb-14">
-          <button className="px-6 py-2 rounded-full bg-black text-white text-sm font-medium">
-            All (62)
-          </button>
-          <button className="px-6 py-2 rounded-full bg-green-500 text-white text-sm font-medium">
-            LED Complete Project
-          </button>
-          <button className="px-6 py-2 rounded-full bg-green-500 text-white text-sm font-medium">
-            Audio Visuals
-          </button>
-          <button className="px-6 py-2 rounded-full bg-green-500 text-white text-sm font-medium">
-            LED Panel Design
-          </button>
+          {categories.map((category) => (
+            <button
+              key={category}
+              onClick={() => setActiveFilter(category)}
+              className={`px-6 py-2 rounded-full text-sm font-medium transition ${
+                activeFilter === category
+                  ? "bg-black text-white"
+                  : "bg-green-500 text-white hover:bg-green-600"
+              }`}
+            >
+              {category} ({getCount(category)})
+            </button>
+          ))}
         </div>
 
-        {/* IMAGE GRID */}
+        {/* Image Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {galleryImages.map((img, index) => (
+          {filteredImages.map((item, index) => (
             <div
               key={index}
               className="group relative overflow-hidden rounded-xl shadow-md"
             >
               <img
-                src={img}
+                src={item.img}
                 alt="gallery"
-                className="w-full h-64 object-cover transition duration-500 group-hover:scale-110"
+                className="w-full h-72 object-cover transition duration-500 group-hover:scale-110"
               />
 
               {/* Hover Overlay */}
