@@ -69,15 +69,15 @@ const Navbar = () => {
             )}
           </div>
 
-          <NavLink to="/gallery" className={linkClass}>
+          <NavLink to="/Gallery" className={linkClass}>
             Gallery
           </NavLink>
 
-          <NavLink to="/aboutus" className={linkClass}>
+          <NavLink to="/about-us" className={linkClass}>
             About Us
           </NavLink>
 
-          <NavLink to="/contactus" className={linkClass}>
+          <NavLink to="/contact-us" className={linkClass}>
             Contact Us
           </NavLink>
         </div>
@@ -133,7 +133,7 @@ const Navbar = () => {
           </NavLink>
 
           <NavLink
-            to="/aboutus"
+            to="/about-us"
             className="block text-blue-700"
             onClick={() => setOpen(false)}
           >
@@ -141,7 +141,7 @@ const Navbar = () => {
           </NavLink>
 
           <NavLink
-            to="/contactus"
+            to="/contact-us"
             className="block text-blue-700"
             onClick={() => setOpen(false)}
           >

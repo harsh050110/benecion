@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../Home";
 import About from "../About";
 import Contact from "../Contact";
+import Gallery from"../gallery";
 
 import DigitalStandee from "../categories/DigitalStandee";
 import CubeIndoor from "../categories/cubein";
@@ -31,6 +32,7 @@ const AppRoutes = () => {
       <Route path="/" element={<Home />} />
       <Route path="/about-us" element={<About />} />
       <Route path="/contact-us" element={<Contact />} />
+      <Route path="/gallery" element={<Gallery />}/>
 
       {/* Categories */}
       <Route path="/led-video-display-outdoor" element={<OutdoorDisplay />} />
