@@ -28,10 +28,12 @@ const AppRoutes = () => {
     <Routes>
 
       {/* Main Pages */}
+      
       <Route path="/" element={<Home />} />
       <Route path="/about-us" element={<About />} />
       <Route path="/contact-us" element={<Contact />} />
       <Route path="/gallery" element={<Gallery />}/>
+      
 
       {/* Categories */}
       <Route path="/led-video-display-outdoor" element={<OutdoorDisplay />} />

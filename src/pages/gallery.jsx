@@ -21,6 +21,21 @@ import g18 from "../Assets/outdoor-led.jpg";
 import g19 from "../Assets/standee-outdoor.jpg";
 import g20 from "../Assets/LED panel Design/beneicon Circular-led-display-cabinet-1-1024x740.jpg";
 import g21 from "../Assets/LED panel Design/Double-side-front-opening-beneicon LED-Display .webp";
+import g22 from"../Assets/LED panel Design/PHOTO-2025-08-10-22-07-50.jpg";
+import g23 from "../Assets/LED panel Design/PHOTO-2025-09-26-23-40-31 2.jpg";
+import g24 from "../Assets/LED panel Design/PHOTO-2025-10-07-14-36-04.jpg";
+import g25 from "../Assets/LED panel Design/PHOTO-2025-10-07-14-36-40.jpg";
+import g26 from "../Assets/LED panel Design/PHOTO-2025-10-07-14-35-50.jpg";
+import g27 from "../Assets/LED panel Design/frame1.jpg";
+import g28 from "../Assets/LED panel Design/frame7.jpg";
+import g29 from "../Assets/LED panel Design/beneiconLED-Display-Cabinet-Types-1024x966.jpg";
+import g30 from "../Assets/LED panel Design/PHOTO-2025-10-07-14-36-10.jpg";
+import g31 from "../Assets/LED panel Design/Double-side-front-opening-beneicon LED-Display .webp";
+import g32 from "../Assets/LED panel Design/PHOTO-2025-10-17-13-38-57.jpg";
+import g33 from "../Assets/LED panel Design/PHOTO-2025-10-06-17-54-39.jpg";
+import g34 from "../Assets/LED panel Design/PHOTO-2025-10-07-14-36-15.jpg";
+import g35 from "../Assets/LED panel Design/PHOTO-2025-10-07-14-36-04.jpg";
+import g36 from "../Assets/LED panel Design/PHOTO-2025-10-07-14-36-09.jpg";
 
 // Example structure — continue for all 62
 const galleryData = [
