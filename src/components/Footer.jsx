@@ -4,7 +4,7 @@ import {
   FaMapMarkerAlt 
 } from "react-icons/fa";
 
-import { FaTwitter, FaFacebookF,  FaWhatsapp,FaLinkedin } from "react-icons/fa";
+import { FaTwitter, FaFacebookF,  FaWhatsapp,FaLinkedin, FaYoutube , FaInstagram} from "react-icons/fa";
 
 
 const Footer = () => {
@@ -52,11 +52,10 @@ const Footer = () => {
             Our Products
           </h3>
           <ul className="space-y-3">
-            <li>Led Video Display Outdoor</li>
-            <li>Led Video Display Indoor</li>
-            <li>Led Video Cube Outdoor</li>
-            <li>Led Video Cube Indoor</li>
-            <li>Digital Standee</li>
+            <li><a href="/led-video-display-outdoor" className="hover:text-white transition">Led Video Display Outdoor</a></li>
+            <li><a href="/led-video-display-indoor" className="hover:text-white transition">Led Video Display Indoor</a></li>
+            <li><a href="/led-video-cube-indoor" className="hover:text-white transition">Led Video Cube Indoor</a></li>
+            <li><a href="/digital-standee" className="hover:text-white transition">Digital Standee</a></li>
           </ul>
         </div>
 
@@ -120,6 +119,14 @@ const Footer = () => {
   >
     <FaLinkedin className="text-white text-sm" />
   </a>
+    <a href="https://www.instagram.com/beneicon/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-[#E1306C] transition"
+  >
+    <FaInstagram className="text-white text-sm" />
+  </a>
+    <a href="https://www.youtube.com/@beneicon?si=xBAhhNCfutGjDIqC" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-[#FF0000] transition"
+  >
+    <FaYoutube className="text-white text-sm" />
+  </a>
 
           </div>
 
@@ -130,7 +137,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-gray-700 mt-16 pt-6 text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center">
         <p>© 2025 Beneicon Pixel LLP. All rights reserved.</p>
-        <p>Designed & Developed by Beneicon <a href="https://harshdev05.vercel.app" className="text-blue-700 hover:underline">(Harsh Kumar)</a></p>
+        <p>Designed & Developed by Brainixt</p>
       </div>
 
     </footer>

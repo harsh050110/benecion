@@ -17,9 +17,7 @@ const Contact = () => {
           </h1>
 
           <p className="text-gray-700 max-w-xl leading-relaxed">
-            Whether you have a question, want to enroll in a course, or just
-            want to say hello — we’re here to help. At Beneicon, we
-            believe every great career begins with a simple conversation.
+            Have a project in mind, exploring LED solutions, or just want to connect? We’re here to help. At Beneicon, every powerful visual transformation begins with a simple conversation.
           </p>
         </div>
 
@@ -46,7 +44,7 @@ const Contact = () => {
         <div className="rounded-2xl overflow-hidden shadow-lg">
           <iframe
             title="Beneicon Location"
-            src="https://www.google.com/maps?ll=28.586388,77.047218&z=16&t=m&hl=en-IN&gl=US&mapclient=embed&cid=12718320328044025966"
+           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d509.0810818723977!2d77.04347625114289!3d28.587667970866395!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1bf5386914ef%3A0xb0808cf42cb1986e!2sBeneicon%20Pixel%20LLP!5e1!3m2!1sen!2sus!4v1772030031472!5m2!1sen!2sus" 
             className="w-full h-[380px] border-0"
             loading="lazy"
           ></iframe>
@@ -179,7 +177,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-full bg-[#2f6f6e] hover:bg-[#255857] text-white py-4 rounded-xl font-semibold transition"
+            className="w-full bg-blue-700 hover:bg-blue-700 text-white py-4 rounded-xl font-semibold transition"
           >
             Send Message
           </button>

@@ -9,6 +9,7 @@ import {
   Target
 } from "lucide-react";
 import about from "../Assets/image/about1.jpg";
+import ourvision from "../Assets/image/Our Vision.jpeg";
 import about2 from "../Assets/image/about2.jpg";
 import about3 from"../Assets/image/about3.jpg";
 import p1 from "../Assets/image/portfolio1.jpg";
@@ -73,7 +74,7 @@ const About = () => {
          <div className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <img
-            src={about2}
+            src={ourvision}
             alt="Our Vision"
             className="w-full rounded-lg shadow-xl"
           />

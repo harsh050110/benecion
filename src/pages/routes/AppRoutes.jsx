@@ -6,16 +6,16 @@ import Contact from "../Contact";
 import Gallery from"../gallery";
 
 import DigitalStandee from "../categories/DigitalStandee";
-import CubeIndoor from "../categories/cubein";
+import CubeIndoor from "../categories/CubeIndoor";
 import IndoorDisplay from "../categories/leddisplayin";
 import OutdoorDisplay from "../categories/leddisplayout";
 import StandeeIndoor from "../categories/standeein";
 import StandeeOutdoor from "../categories/standeeout";
 
-import OutdoorP3 from "../outdoor/outdoor-p3";
-import OutdoorP4 from "../outdoor/outdoor-p4";
-import OutdoorP6 from "../outdoor/outdoor-p6";
-import OutdoorP8 from "../outdoor/outdoor-p8";
+import OutdoorP3 from "../outdoor/outdoorP3";
+import OutdoorP4 from "../outdoor/outdoorP4";
+import OutdoorP6 from "../outdoor/outdoorP6";
+import OutdoorP8 from "../outdoor/outdoorP8";
 
 import IndoorP15 from "../indoor/IndoorP15";
 import IndoorP18 from "../indoor/IndoorP18";
@@ -44,10 +44,10 @@ const AppRoutes = () => {
       <Route path="/digital-standee" element={<DigitalStandee />} />
 
       {/* Outdoor Products */}
-      <Route path="/outdoor-p3" element={<OutdoorP3 />} />
-      <Route path="/outdoor-p4" element={<OutdoorP4 />} />
-      <Route path="/outdoor-p6" element={<OutdoorP6 />} />
-      <Route path="/outdoor-p8" element={<OutdoorP8 />} />
+      <Route path="/outdoorP3" element={<OutdoorP3 />} />
+      <Route path="/outdoorP4" element={<OutdoorP4 />} />
+      <Route path="/outdoorP6" element={<OutdoorP6 />} />
+      <Route path="/outdoorP8" element={<OutdoorP8 />} />
 
       {/* Indoor Products */}
       <Route path="/indoor-p15" element={<IndoorP15 />} />
