@@ -19,6 +19,8 @@ import g16 from "../Assets/LED Video Wall Indoor P-2.5.jpg";
 import g17 from "../Assets/standee-indoor.jpg";
 import g18 from "../Assets/outdoor-led.jpg";
 import g19 from "../Assets/standee-outdoor.jpg";
+import g20 from "../Assets/LED panel Design/beneicon Circular-led-display-cabinet-1-1024x740.jpg";
+import g21 from "../Assets/LED panel Design/Double-side-front-opening-beneicon LED-Display .webp";
 
 // Example structure — continue for all 62
 const galleryData = [
@@ -40,7 +42,25 @@ const galleryData = [
   {img:g16, category: "LED Complete Project"},
   {img:g17, cateogry: "Audio Visuals"},
   {img:g18, category: "LED Panel Design"},
-  {img:g19, category: "LED Complete Project"}
+  {img:g19, category: "LED Complete Project"},
+  {img:g20, category: "LED Complete Project"},
+  {img:g21, category: "LED Complete Project"},
+  {img:g22, category: "LED Complete Project"},
+  {img:g23, category: "LED Complete Project"},
+  {img:g24, category: "LED Complete Project"},
+  {img:g25, category: "LED Complete Project"},
+  {img:g26, category: "LED Complete Project"},
+  {img:g27, category: "LED Complete Project"},
+  {img:g28, category: "LED Complete Project"},
+  {img:g29, category: "LED Complete Project"},
+  {img:g30, category: "LED Complete Project"},
+  {img:g31, category: "LED Complete Project"},
+  {img:g32, category: "LED Complete Project"},
+  {img:g33, category: "LED Complete Project"},
+  {img:g34, category: "LED Complete Project"},
+  {img:g35, category: "LED Complete Project"},
+  {img:g36, category: "LED Complete Project"}
+  
 ];
 
 const Gallery = () => {

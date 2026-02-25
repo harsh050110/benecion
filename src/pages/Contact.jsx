@@ -18,7 +18,7 @@ const Contact = () => {
 
           <p className="text-gray-700 max-w-xl leading-relaxed">
             Whether you have a question, want to enroll in a course, or just
-            want to say hello — we’re here to help. At Binge Learning, we
+            want to say hello — we’re here to help. At Beneicon, we
             believe every great career begins with a simple conversation.
           </p>
         </div>
@@ -114,7 +114,7 @@ const Contact = () => {
       {/* CONTACT FORM */}
       <div className="max-w-[900px] mx-auto px-6 pb-32">
         <h2 className="text-center  text-yellow-500 text-4xl font-serif font-bold mb-16">
-          Share your thoughts with us.
+          Contact Us
         </h2>
 
         <form className="bg-white rounded-2xl shadow-xl p-10 space-y-6">
