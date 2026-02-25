@@ -22,6 +22,10 @@ import IndoorP18 from "../indoor/IndoorP18";
 import IndoorP2 from "../indoor/IndoorP2";
 import IndoorP25 from "../indoor/IndoorP25";
 import IndoorP4 from "../indoor/IndoorP4";
+// Standee Indoor
+import IndoorStandeeP2 from "../../pages/Standee-In/StandeeP2";
+import IndoorStandeeP25  from "../Standee-In/StandeeP25";
+import IndoorStandeeP18 from "../Standee-In/StandeeP18";
 
 const AppRoutes = () => {
   return (
@@ -55,7 +59,10 @@ const AppRoutes = () => {
       <Route path="/indoor-p2" element={<IndoorP2 />} />
       <Route path="/indoor-p25" element={<IndoorP25 />} />
       <Route path="/indoor-p4" element={<IndoorP4 />} />
-
+      {/* Standee Indoor Products */}
+      <Route path="/StandeeP2" element={<IndoorStandeeP2 />} />
+      <Route path="/StandeeP25" element={<IndoorStandeeP25 />} />
+      <Route path="/StandeeP18" element={<IndoorStandeeP18 />} />
     </Routes>
   );
 };

@@ -96,14 +96,6 @@ const About = () => {
 <div className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
   
   <div>
-    <img
-      src={about3}
-      alt="Our Mission"
-      className="w-full rounded-lg shadow-xl"
-    />
-  </div>
-
-  <div>
     <h2 className="text-3xl font-bold mb-6 text-blue-700">
       Our Mission
     </h2>
@@ -114,6 +106,13 @@ const About = () => {
       <li>• Maintain a client-first approach across design and execution.</li>
       <li>• Uphold the highest standards of quality, reliability, and on-time delivery.</li>
     </ul>
+  </div>
+    <div>
+    <img
+      src={about3}
+      alt="Our Mission"
+      className="w-full rounded-lg shadow-xl"
+    />
   </div>
 
 </div>
