@@ -14,7 +14,7 @@ const Footer = () => {
       {/* Back to Top Button */}
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className="absolute -top-6 left-1/2 -translate-x-1/2 bg-yellow-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-yellow-500 transition"
+        className="absolute -top-6 left-1/2 -translate-x-1/2 bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-yellow-500 transition"
       >
         ↑
       </button>
@@ -23,7 +23,7 @@ const Footer = () => {
 
         {/* Company Info */}
         <div>
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-blue-700 mb-4">
             Beneicon
           </h2>
           <p className="text-gray-400 leading-relaxed">
@@ -34,7 +34,7 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div>
-          <h3 className="text-lg font-semibold text-yellow-500 mb-6">
+          <h3 className="text-lg font-semibold text-blue-700 mb-6">
             Quick Links
           </h3>
           <ul className="space-y-3">
@@ -48,7 +48,7 @@ const Footer = () => {
 
         {/* Our Products */}
         <div>
-          <h3 className="text-lg font-semibold text-yellow-500 mb-6">
+          <h3 className="text-lg font-semibold text-blue-700 mb-6">
             Our Products
           </h3>
           <ul className="space-y-3">
@@ -62,25 +62,25 @@ const Footer = () => {
 
         {/* Contact Info */}
         <div>
-          <h3 className="text-lg font-semibold text-yellow-500 mb-6">
+          <h3 className="text-lg font-semibold text-blue-700 mb-6">
             Contact Us
           </h3>
 
           <div className="space-y-4 text-gray-400">
 
             <div className="flex items-start gap-3">
-              <FaEnvelope className="mt-1 text-yellow-500" />
+              <FaEnvelope className="mt-1 text-blue-700" />
               <span>beneicon@gmail.com<br/> sales@beneicon.com</span>
             </div>
 
             <div className="flex items-start gap-3">
-              <FaPhoneAlt className="mt-1 text-yellow-500" />
+              <FaPhoneAlt className="mt-1 text-blue-700" />
               <span>+91 70659 93135
 </span>
             </div>
 
             <div className="flex items-start gap-3">
-              <FaMapMarkerAlt className="mt-1 text-yellow-500" />
+              <FaMapMarkerAlt className="mt-1 text-blue-700" />
               <span>
                 482, Sunview Apt., Dwarka Sector 11 <br /> Dwarka, Delhi-110075
                 India
@@ -130,7 +130,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-gray-700 mt-16 pt-6 text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center">
         <p>© 2025 Beneicon Pixel LLP. All rights reserved.</p>
-        <p>Designed & Developed by Beneicon <a href="https://harshdev05.vercel.app" className="text-yellow-500 hover:underline">(Harsh Kumar)</a></p>
+        <p>Designed & Developed by Beneicon <a href="https://harshdev05.vercel.app" className="text-blue-700 hover:underline">(Harsh Kumar)</a></p>
       </div>
 
     </footer>

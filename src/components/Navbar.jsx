@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../Assets/logo.jpeg";
 
 const CSSMathProduct = [
   { name: "LED Video Display Outdoor", path: "/led-video-display-outdoor" },
   { name: "LED Video Display Indoor", path: "/led-video-display-indoor" },
-  { name: "LED Video Cube Outdoor", path: "/led-video-cube-outdoor" },
-  { name: "LED Video Cube Indoor", path: "/led-video-cube-indoor" },
+  { name: "LED Video Cube ", path: "/led-video-cube" },
   { name: "LED Video Display Standee Indoor", path: "/led-video-standee-indoor" },
   { name: "LED Video Display Standee Outdoor", path: "/led-video-standee-outdoor" },
   { name: "Digital Standee", path: "/digital-standee" },
@@ -22,11 +22,12 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-[#F4F2F3]  sticky top-0 z-50 shadow-md">
       <div className="max-w-[1470px] w-full h-[80px] mx-auto px-6 flex items-center justify-between">
-
-        <Link to="/" className="flex items-center gap-2">
-          <span className="text-xl font-bold text-blue-700">
-            Beneicon
-          </span>
+                <Link to="/" className="flex items-center gap-2">
+          <img
+            src={logo}
+            alt="Beneicon Logo"
+            className="h-20 w-20 object-contain"
+          />
         </Link>
 
         <div className=" text-blue-700 hidden lg:flex gap-8 items-center">
