@@ -12,10 +12,10 @@ import OutdoorDisplay from "../categories/leddisplayout";
 import StandeeIndoor from "../categories/standeein";
 import StandeeOutdoor from "../categories/standeeout";
 
-import OutdoorP3 from "../outdoor/outdoorP3";
-import OutdoorP4 from "../outdoor/outdoorP4";
-import OutdoorP6 from "../outdoor/outdoorP6";
-import OutdoorP8 from "../outdoor/outdoorP8";
+import OutdoorP3 from "../outdoor/outdoor-p3";
+import OutdoorP4 from "../outdoor/outdoor-p4";
+import OutdoorP6 from "../outdoor/outdoor-p6";
+import OutdoorP8 from "../outdoor/outdoor-p8";
 
 import IndoorP15 from "../indoor/IndoorP15";
 import IndoorP18 from "../indoor/IndoorP18";
