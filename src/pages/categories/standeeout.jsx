@@ -185,14 +185,14 @@ const StandeeOutdoor = () => {
         </div>
       </Link>
 
-      <Link to="/OutdoorStandeeP4" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+      <Link to="/OutdoorStandeeP4" className="w-full h-full group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
         <img src={p4Img} alt="Outdoor LED P-4" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
         <div className="p-6 text-center font-semibold">
           Standee LED P-4
         </div>
       </Link>
 
-      <Link to="/OutdoorStandeeP25" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+      <Link to="/OutdoorStandeeP25" className="h-full w-full group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
         <img src={p6Img} alt="Outdoor LED P-6" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
         <div className="p-6 text-center font-semibold">
           Standee LED P-2.5

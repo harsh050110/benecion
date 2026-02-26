@@ -6,7 +6,7 @@ import indoorImg from "../Assets/indoor-led.jpg";
 // import cubeInImg from "../Assets/cube-indoor.jpg";
 import standeeInImg from "../Assets/standee-indoor.jpg";
 import standeeOutImg from "../Assets/standee-outdoor.jpg";
-import digitalStandeeImg from "../Assets/digital-standee.jpg";
+import digitalStandeeImg from "../Assets/asset03-removebg-preview.png";
 
 const products = [
   { 
