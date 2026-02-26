@@ -30,9 +30,14 @@ const DigitalStandeeA43 = () => {
               offices, and showrooms.
             </p>
 
-            <button className="bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition shadow-lg">
-              Know More
-            </button>
+                      <a
+  href="https://wa.me/+917065993135"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition shadow-lg inline-block"
+>
+  Know More
+</a>
 
             <div className="mt-6 text-sm text-gray-500">
               <p>

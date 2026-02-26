@@ -47,9 +47,14 @@ const StandeeOutdoor = () => {
               Designed to deliver impactful visuals in all weather conditions.
             </p>
 
-            <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition shadow-lg">
-              Request a Demo
-            </button>
+                      <a
+  href="https://wa.me/+917065993135"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition shadow-lg inline-block"
+>
+  Request Your Demo
+</a>
           </div>
 
           <div className="flex justify-center">

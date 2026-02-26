@@ -53,10 +53,14 @@ const OutdoorP3 = () => {
               Designed for clarity, brightness, and all-weather durability —
               perfect for outdoor advertising and large-scale displays.
             </p>
-
-            <button className="bg-green-500 text-white px-8 py-3 rounded-lg font-medium hover:bg-green-600 transition mb-6">
-              Know More
-            </button>
+<a
+  href="https://wa.me/+917065993135"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition shadow-lg inline-block"
+>
+  Know More
+</a>
 
             <div className="text-sm text-gray-600 space-y-2">
               <p><span className="font-semibold">CATEGORY:</span> LED Wall Outdoor</p>
