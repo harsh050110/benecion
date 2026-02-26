@@ -3,6 +3,8 @@ import {
   FaPhoneAlt, 
   FaMapMarkerAlt 
 } from "react-icons/fa";
+import {Link } from "react-router-dom";
+import logo from "../Assets/logo-removebg-preview.png";
 
 import { FaTwitter, FaFacebookF,  FaWhatsapp,FaLinkedin, FaYoutube , FaInstagram} from "react-icons/fa";
 
@@ -23,9 +25,13 @@ const Footer = () => {
 
         {/* Company Info */}
         <div>
-          <h2 className="text-2xl font-bold text-blue-700 mb-4">
-            Beneicon
-          </h2>
+                <Link to="/" className="flex items-center gap-2">
+          <img
+            src={logo}
+            alt="Beneicon Logo"
+            className="h-20 w-20 object-contain"
+          />
+        </Link>
           <p className="text-gray-400 leading-relaxed">
             Beneicon is a trusted LED display and digital solutions partner
             delivering premium indoor and outdoor LED systems across India.

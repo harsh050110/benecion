@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../Assets/logo.jpeg";
+import logo from "../Assets/logo-removebg-preview.png";
 
 const CSSMathProduct = [
   { name: "LED Video Display Outdoor", path: "/led-video-display-outdoor" },

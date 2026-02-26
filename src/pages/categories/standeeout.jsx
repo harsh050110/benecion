@@ -3,6 +3,11 @@ import standeeOutdoorImg from "../../Assets/standee-outdoor.jpg";
 import adImg from "../../Assets/outdoor-led.jpg";
 import eventImg from "../../Assets/asset02.jpg";
 import mallImg from "../../Assets/asset02.jpg";
+import {Link } from "react-router-dom";
+import p3Img from "../../Assets/image/LED-Video-Standee-Outdoor-P-3.png";
+import p4Img from "../../Assets/image/LED-Video-Standee-Outdoor-P-4.jpg";
+import p6Img from "../../Assets/image/LED-Video-Standee-Outdoor-P-2.5.jpg";
+
 
 import { motion } from "framer-motion";
 import {
@@ -159,6 +164,39 @@ const StandeeOutdoor = () => {
 
         </div>
       </section>
+      <section className="bg-[#F4F2F3] py-20 px-6">
+  <div className="max-w-7xl mx-auto">
+
+    <h2 className="text-3xl font-bold mb-12">
+      Related Products
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-10">
+
+      <Link to="/OutdoorStandeeP3" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={p3Img} alt="Outdoor LED P-3" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Standee LED P-3
+        </div>
+      </Link>
+
+      <Link to="/OutdoorStandeeP4" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={p4Img} alt="Outdoor LED P-4" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Standee LED P-4
+        </div>
+      </Link>
+
+      <Link to="/OutdoorStandeeP25" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={p6Img} alt="Outdoor LED P-6" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Standee LED P-2.5
+        </div>
+      </Link>
+
+    </div>
+  </div>
+</section>
 
     </>
   );

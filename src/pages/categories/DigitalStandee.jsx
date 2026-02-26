@@ -1,4 +1,9 @@
 import React from "react";
+import {Link } from "react-router-dom";
+import p3Img from "../../Assets/image/Digital-Standee-A-Shape-32-Inch.png";
+import p4Img from"../../Assets/image/Digital-Standee-I-Shape-43-Inch-1300x1300.jpg";
+import p6Img from "../../Assets/image/Digital-Standee-I-Shape-43-Inch-1300x1300.jpg";
+import p8Img from "../../Assets/image/Digital-Standee-I-Shape-50-Inch.jpg";
 import standeeImg from "../../Assets/digital-standee.jpg";
 import retailImg from "../../Assets/asset02.jpg";
 import mallImg from "../../Assets/asset02.jpg";
@@ -152,6 +157,46 @@ const DigitalStandee = () => {
 
         </div>
       </section>
+            <section className="bg-[#F4F2F3] py-20 px-6">
+  <div className="max-w-7xl mx-auto">
+
+    <h2 className="text-3xl font-bold mb-12">
+      Related Products
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-10">
+
+      <Link to="/DigitalStandeeA32" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={p3Img} alt="Outdoor LED P-3" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Digital Standee A-Shape-32
+        </div>
+      </Link>
+
+      <Link to="/DigitalStandeeA43" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={p4Img} alt="Outdoor LED P-4" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Digital Standee A-Shape-43
+        </div>
+      </Link>
+
+      <Link to="/DigitalStandeeI43" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={p6Img} alt="Outdoor LED P-6" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Digital Standee I-Shape-43
+        </div>
+      </Link>
+            <Link to="/DigitalStandeeI50" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={p8Img} alt="Outdoor LED P-6" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Digital Standee I-Shape-50
+        </div>
+      </Link>
+      
+
+    </div>
+  </div>
+</section>
 
     </>
   );

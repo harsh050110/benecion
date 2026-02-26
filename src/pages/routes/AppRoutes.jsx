@@ -26,6 +26,16 @@ import IndoorP4 from "../indoor/IndoorP4";
 import IndoorStandeeP2 from "../../pages/Standee-In/StandeeP2";
 import IndoorStandeeP25  from "../Standee-In/StandeeP25";
 import IndoorStandeeP18 from "../Standee-In/StandeeP18";
+// Standee Outdoor
+import OutdoorStandeeP25 from "../Standee-Out/StandeeP25";
+import OutdoorStandeeP3 from "../Standee-Out/StandeeP3";
+import OutdoorStandeeP4 from "../Standee-Out/StandeeP4";
+// Digital Standee
+import DigitalStandeeA32 from "../Digital-Standee/StandeeA32";
+import DigitalStandeeA43 from "../Digital-Standee/StandeeA43";
+import DigitalStandeeI43 from "../Digital-Standee/StandeeI-43";
+import DigitalStandeeI50 from "../Digital-Standee/StandeeI50";
+
 
 const AppRoutes = () => {
   return (
@@ -63,6 +73,15 @@ const AppRoutes = () => {
       <Route path="/StandeeP2" element={<IndoorStandeeP2 />} />
       <Route path="/StandeeP25" element={<IndoorStandeeP25 />} />
       <Route path="/StandeeP18" element={<IndoorStandeeP18 />} />
+      {/* Standee Outdoor Products */}
+      <Route path="/OutdoorStandeeP25" element={<OutdoorStandeeP25 />} />
+      <Route path="/OutdoorStandeeP3" element={<OutdoorStandeeP3 />} />
+      <Route path="/OutdoorStandeeP4" element={<OutdoorStandeeP4 />} />
+      {/* Digital Standee Products */}
+      <Route path="/DigitalStandeeA32" element={<DigitalStandeeA32 />} />
+      <Route path="/DigitalStandeeA43" element={<DigitalStandeeA43 />} />
+      <Route path="/DigitalStandeeI43" element={<DigitalStandeeI43 />} />
+      <Route path="/DigitalStandeeI50" element={<DigitalStandeeI50 />} />
     </Routes>
   );
 };
