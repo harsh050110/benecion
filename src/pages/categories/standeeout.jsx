@@ -92,6 +92,39 @@ const StandeeOutdoor = () => {
 
         </div>
       </section>
+            <section className="bg-[#F4F2F3] py-20 px-6">
+  <div className="max-w-7xl mx-auto">
+
+    <h2 className="text-3xl font-bold mb-12">
+      Related Products
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-10">
+
+      <Link to="/OutdoorStandeeP3" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={p3Img} alt="Outdoor LED P-3" className="h-64 w-full object-contain group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Standee LED P-3
+        </div>
+      </Link>
+
+      <Link to="/OutdoorStandeeP4" className="w-full h-full group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={p4Img} alt="Outdoor LED P-4" className="h-64 w-full object-contain group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Standee LED P-4
+        </div>
+      </Link>
+
+      <Link to="/OutdoorStandeeP25" className="h-full w-full group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={p6Img} alt="Outdoor LED P-6" className="h-64 w-full object-contain  group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Standee LED P-2.5
+        </div>
+      </Link>
+
+    </div>
+  </div>
+</section>
 
       {/* ================= APPLICATIONS ================= */}
       <section className="bg-white py-24 px-6">
@@ -169,39 +202,6 @@ const StandeeOutdoor = () => {
 
         </div>
       </section>
-      <section className="bg-[#F4F2F3] py-20 px-6">
-  <div className="max-w-7xl mx-auto">
-
-    <h2 className="text-3xl font-bold mb-12">
-      Related Products
-    </h2>
-
-    <div className="grid md:grid-cols-3 gap-10">
-
-      <Link to="/OutdoorStandeeP3" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
-        <img src={p3Img} alt="Outdoor LED P-3" className="h-64 w-full object-contain group-hover:scale-105 transition duration-500" />
-        <div className="p-6 text-center font-semibold">
-          Standee LED P-3
-        </div>
-      </Link>
-
-      <Link to="/OutdoorStandeeP4" className="w-full h-full group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
-        <img src={p4Img} alt="Outdoor LED P-4" className="h-64 w-full object-contain group-hover:scale-105 transition duration-500" />
-        <div className="p-6 text-center font-semibold">
-          Standee LED P-4
-        </div>
-      </Link>
-
-      <Link to="/OutdoorStandeeP25" className="h-full w-full group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
-        <img src={p6Img} alt="Outdoor LED P-6" className="h-64 w-full object-contain  group-hover:scale-105 transition duration-500" />
-        <div className="p-6 text-center font-semibold">
-          Standee LED P-2.5
-        </div>
-      </Link>
-
-    </div>
-  </div>
-</section>
 
     </>
   );

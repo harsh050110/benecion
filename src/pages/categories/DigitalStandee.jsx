@@ -6,7 +6,7 @@ import p6Img from "../../Assets/P6IMg.jpeg";
 import p8Img from "../../Assets/image/Digital-Standee-I-Shape-50-Inch.jpg";
 import standeeImg from "../../Assets/digital-standee.jpg";
 import retailImg from "../../Assets/asset02.jpg";
-import mallImg from "../../Assets/asset02.jpg";
+import mallImg from "../../Assets/P6IMg.jpeg";
 import eventImg from "../../Assets/asset02.jpg";
 
 import { motion } from "framer-motion";
