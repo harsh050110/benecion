@@ -7,6 +7,7 @@ import indoorImg from "../Assets/indoor-led.jpg";
 import standeeInImg from "../Assets/standee-indoor.jpg";
 import standeeOutImg from "../Assets/standee-outdoor.jpg";
 import digitalStandeeImg from "../Assets/asset03-removebg-preview.png";
+import CubeImg from "../Assets/image/cube.png";
 
 const products = [
   { 
@@ -33,6 +34,11 @@ const products = [
     name: "Digital Standee", 
     image: digitalStandeeImg,
     path: "/digital-standee"
+  },
+  {
+    name: "Cube Led Video Display",
+    image: CubeImg,
+    path: "/cube-led-video-display"
   },
 ];
 

@@ -6,6 +6,7 @@ import Contact from "../Contact";
 import Gallery from"../gallery";
 
 import DigitalStandee from "../categories/DigitalStandee";
+import CMSsoftware from "../categories/CMSsoftware";
 import CubeIndoor from "../categories/CubeIndoor";
 import IndoorDisplay from "../categories/leddisplayin";
 import OutdoorDisplay from "../categories/leddisplayout";
@@ -50,6 +51,7 @@ const AppRoutes = () => {
       
 
       {/* Categories */}
+      <Route path="/cms-software" element={<CMSsoftware/>}/>
       <Route path="/led-video-display-outdoor" element={<OutdoorDisplay />} />
       <Route path="/led-video-display-indoor" element={<IndoorDisplay />} />
       <Route path="/led-video-cube-indoor" element={<CubeIndoor />} />
