@@ -33,7 +33,7 @@ const IndoorDisplay = () => {
           <div>
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-8">
               <span className="text-blue-600"> Beneicon</span> Indoor LED <br />
-              <br />
+              
               <span className="text-blue-700">Video Display</span>
             </h1>
 

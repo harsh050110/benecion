@@ -111,7 +111,7 @@ const Navbar = () => {
             onClick={() => setCategoriesOpen(!categoriesOpen)}
             className="flex justify-between w-full text-blue-700"
           >
-            Categories
+            Products
             <span>{categoriesOpen ? "−" : "+"}</span>
           </button>
 

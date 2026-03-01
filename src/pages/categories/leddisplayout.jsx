@@ -36,14 +36,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-gray-600 text-lg max-w-xl mb-10 leading-relaxed">
-              The Beneicon Outdoor LED Video Display P-3 is a high-performance outdoor display engineered
-for high-visibility environments where brightness and durability are essential. Manufactured by
-Beneicon Pixel LLP, this display features a 3.076mm pixel pitch, delivering sharp visuals, vibrant
-colors, and excellent clarity even in direct sunlight. Designed for advertising and commercial
-outdoor applications, it ensures powerful visual impact with a seamless modular design for
-large-format display installations. Built using premium-grade LED modules and professional control
-systems, each unit is precision-engineered and performance-tested to ensure stable operation and
-long service life in outdoor conditions.</p>
+             Beneicon Outdoor LED Video Display is built to deliver powerful, high-brightness visuals that stand out in any outdoor environment. Designed for durability and performance, it ensures crystal-clear visibility even under direct sunlight, making it ideal for storefronts, highways, events, and commercial spaces. With seamless display technology, weather-resistant design, and energy-efficient performance, Beneicon helps brands capture attention, enhance visibility, and communicate impactfully—24/7..</p>
 
                       <a
   href="https://wa.me/+917065993135"

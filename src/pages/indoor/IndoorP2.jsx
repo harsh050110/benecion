@@ -45,7 +45,7 @@ const IndoorP2 = () => {
           {/* RIGHT CONTENT */}
           <div>
             <h1 className="text-3xl lg:text-4xl font-semibold mb-6">
-              Indoor LED Video Display P-2
+             Beneicon  Indoor LED Video Display P-2
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
