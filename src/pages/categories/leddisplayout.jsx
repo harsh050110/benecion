@@ -36,7 +36,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-gray-600 text-lg max-w-xl mb-10 leading-relaxed">
-             Beneicon Outdoor LED Video Display is built to deliver powerful, high-brightness visuals that stand out in any outdoor environment. Designed for durability and performance, it ensures crystal-clear visibility even under direct sunlight, making it ideal for storefronts, highways, events, and commercial spaces. With seamless display technology, weather-resistant design, and energy-efficient performance, Beneicon helps brands capture attention, enhance visibility, and communicate impactfully—24/7..</p>
+             Beneicon Outdoor LED Video Display is built to deliver powerful, high-brightness visuals that stand out in any outdoor environment. Designed for durability and performance, it ensures crystal-clear visibility even under direct sunlight, making it ideal for storefronts, highways, events, and commercial spaces. With seamless display technology, weather-resistant design, and energy-efficient performance, Beneicon helps brands capture attention, enhance visibility, and communicate impactfully—24/7.</p>
 
                       <a
   href="https://wa.me/+917065993135"
