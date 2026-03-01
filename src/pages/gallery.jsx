@@ -2,40 +2,40 @@ import React, { useState } from "react";
 
 import g1 from "../Assets/products/outdoor4.jpg";
 import g2 from "../Assets/products/indoorp4.jpg";
-import g3 from "../Assets/products/indoorp2.jpeg";
+import g3 from "../Assets/LED panel Design/Panel11.jpg";
 import g4 from "../Assets/products/indoor-p18.png";
 import g5 from "../Assets/products/indoor-p15.jpg";
-import g6 from "../Assets/asset01.jpg";
-import g7 from "../Assets/asset02.jpg";
+import g6 from "../Assets/LED panel Design/PAnel12.jpg";
+import g7 from "../Assets/indoor4.jpeg";
 import g8 from "../Assets/asset03.jpg";
-import g9 from "../Assets/asset04.jpg";
+import g9 from "../Assets/LED panel Design/PAnel8.jpg";
 import g10 from "../Assets/asset05.jpg";
 import g11 from "../Assets/asset06.jpg";
-import g12 from "../Assets/digital-standee.jpg";
+import g12 from "../Assets/LED panel Design/Panel9.jpg";
 import g13 from "../Assets/indoor-led.jpg";
 import g14 from "../Assets/indoor-led2.jpg";
-import g15 from "../Assets/indoor-led3.jpg";
+import g15 from "../Assets/LED panel Design/Panel10.jpg";
 import g16 from "../Assets/LED Video Wall Indoor P-2.5.jpg";
-import g17 from "../Assets/standee-indoor.jpg";
-import g18 from "../Assets/outdoor-led.jpg";
-import g19 from "../Assets/standee-outdoor.jpg";
-import g20 from "../Assets/LED panel Design/beneicon Circular-led-display-cabinet-1-1024x740.jpg";
-import g21 from "../Assets/LED panel Design/Double-side-front-opening-beneicon LED-Display .webp";
-import g22 from"../Assets/LED panel Design/PHOTO-2025-08-10-22-07-50.jpg";
-import g23 from "../Assets/LED panel Design/PHOTO-2025-09-26-23-40-31 2.jpg";
-import g24 from "../Assets/LED panel Design/PHOTO-2025-10-07-14-36-04.jpg";
-import g25 from "../Assets/LED panel Design/PHOTO-2025-10-07-14-36-40.jpg";
-import g26 from "../Assets/LED panel Design/PHOTO-2025-10-07-14-35-50.jpg";
+import g17 from "../Assets/outdoor-led.jpg";
+import g18 from "../Assets/LED panel Design/PAnel3.jpg";
+import g19 from "../Assets/outdoorads.jpeg";
+import g20 from "../Assets/p6.jpeg";
+import g21 from "../Assets/LED panel Design/LEd complete.jpg";
+import g22 from"../Assets/LED panel Design/Panel7.jpg";
+import g23 from "../Assets/LED panel Design/Panel6.jpg";
+import g24 from "../Assets/LED panel Design/Panel5.jpg";
+import g25 from "../Assets/LED panel Design/Panel4.jpg";
+import g26 from "../Assets/LED panel Design/Panel1.jpg";
 import g27 from "../Assets/LED panel Design/frame1.jpg";
 import g28 from "../Assets/LED panel Design/frame7.jpg";
-import g29 from "../Assets/LED panel Design/beneiconLED-Display-Cabinet-Types-1024x966.jpg";
-import g30 from "../Assets/LED panel Design/PHOTO-2025-10-07-14-36-10.jpg";
-import g31 from "../Assets/LED panel Design/Double-side-front-opening-beneicon LED-Display .webp";
-import g32 from "../Assets/LED panel Design/PHOTO-2025-10-17-13-38-57.jpg";
-import g33 from "../Assets/LED panel Design/PHOTO-2025-10-06-17-54-39.jpg";
-import g34 from "../Assets/LED panel Design/PHOTO-2025-10-07-14-36-15.jpg";
-import g35 from "../Assets/LED panel Design/PHOTO-2025-10-07-14-36-04.jpg";
-import g36 from "../Assets/LED panel Design/PHOTO-2025-10-07-14-36-09.jpg";
+import g29 from "../Assets/Product/LED P7.jpeg";
+import g30 from "../Assets/Product/LEDP8.jpeg";
+import g31 from "../Assets/Product/LEDP6.jpeg";
+import g32 from "../Assets/Product/LEDP5.jpeg";
+import g33 from "../Assets/Product/LED P3.jpeg";
+import g34 from "../Assets/Product/LED P4.jpeg";
+import g35 from "../Assets/Product/LED P2.jpeg";
+import g36 from "../Assets/Product/LED P1.jpeg";
 
 // Example structure — continue for all 62
 const galleryData = [
@@ -60,13 +60,13 @@ const galleryData = [
   {img:g19, category: "LED Complete Project"},
   {img:g20, category: "LED Complete Project"},
   {img:g21, category: "LED Complete Project"},
-  {img:g22, category: "LED Complete Project"},
-  {img:g23, category: "LED Complete Project"},
-  {img:g24, category: "LED Complete Project"},
-  {img:g25, category: "LED Complete Project"},
-  {img:g26, category: "LED Complete Project"},
-  {img:g27, category: "LED Complete Project"},
-  {img:g28, category: "LED Complete Project"},
+  {img:g22, category: "LED Panel Design"},
+  {img:g23, category: "LED Panel Design"},
+  {img:g24, category: "LED Panel Design"},
+  {img:g25, category: "LED Panel Design"},
+  {img:g26, category: "LED Panel Design"},
+  {img:g27, category: "LED Panel Design"},
+  {img:g28, category: "LED Panel Design"},
   {img:g29, category: "LED Complete Project"},
   {img:g30, category: "LED Complete Project"},
   {img:g31, category: "LED Complete Project"},
@@ -84,7 +84,6 @@ const Gallery = () => {
   const categories = [
     "All",
     "LED Complete Project",
-    "Audio Visuals",
     "LED Panel Design",
   ];
 

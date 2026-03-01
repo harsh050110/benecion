@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link, NavLink,useLocation} from "react-router-dom";
 import logo from "../Assets/logo-removebg-preview.png";
 
 const CSSMathProduct = [
@@ -16,6 +16,11 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [categoriesOpen, setCategoriesOpen] = useState(false);
 
+  const location = useLocation();
+  useEffect(()=>{
+    setCategoriesOpen(false);
+    setOpen(false);
+  }, [location]);
   const linkClass =
     "block text-blue-700 hover:text-blue-400 transition font-medium";
 
