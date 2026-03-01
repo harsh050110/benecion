@@ -51,7 +51,7 @@ const AppRoutes = () => {
       
 
       {/* Categories */}
-      <Route path="/cmssoftware" element={<CMSsoftware/>}/>
+      <Route path="/cms-software" element={<CMSsoftware/>}/>
       <Route path="/led-video-display-outdoor" element={<OutdoorDisplay />} />
       <Route path="/led-video-display-indoor" element={<IndoorDisplay />} />
       <Route path="/led-video-cube-indoor" element={<CubeIndoor />} />

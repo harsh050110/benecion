@@ -9,7 +9,7 @@ const CSSMathProduct = [
   { name: "LED Video Display Standee Indoor", path: "/led-video-standee-indoor" },
   { name: "LED Video Display Standee Outdoor", path: "/led-video-standee-outdoor" },
   { name: "Digital Standee", path: "/digital-standee" },
-  { name: "CMS Software",path:"/cmssoftware"},
+  { name: "CMS Software",path:"/cms-software"},
 ];
 
 
