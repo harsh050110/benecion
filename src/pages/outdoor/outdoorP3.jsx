@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import mainImg from "../../Assets/products/outdoorP3.jpg";
 import thumb1 from "../../Assets/products/outdoorP3.jpg";
-import thumb2 from "../../Assets/asset04.jpg";
+import thumb2 from"../../Assets/outdoorads.jpeg";
 import thumb3 from "../../Assets/asset05.jpg";
 import thumb4 from "../../Assets/outdoor-led.jpg";
 
@@ -106,12 +106,13 @@ const OutdoorP3 = () => {
                 </h2>
 
                 <ul className="list-disc pl-6 space-y-3 text-gray-700">
-                  <li>Fine Pixel Pitch (P-3) for sharp visuals</li>
-                  <li>High Brightness ≥ 5500 nits</li>
-                  <li>IP65 Waterproof Front Protection</li>
-                  <li>Seamless Modular Cabinet Design</li>
-                  <li>Energy Efficient & Durable</li>
-                  <li>Easy Installation & Maintenance</li>
+
+                  <li>Fine Pixel Pitch P-3 for Clear Outdoor Visibility</li>
+                  <li>High Brightness Performance</li>
+                  <li>Excellent Sunlight Readability</li>
+                  <li>Smooth Visual Output with High Refresh Rate</li>
+                  <li>Weather-Resistant Outdoor Design</li>
+                  <li>Designed for Professional Outdoor Installations</li>
                 </ul>
               </div>
 
@@ -121,12 +122,17 @@ const OutdoorP3 = () => {
                 </h2>
 
                 <ul className="list-disc pl-6 space-y-3 text-gray-700">
-                  <li>Pixel Pitch: 3 mm</li>
+                                    <li>Brand: Beneicon</li>
+                  <li>Model: Outdoor LED Video Display P-4</li>
+                  <li>Pixel Pitch: 4 mm</li>
                   <li>Brightness: ≥ 5500 nits</li>
                   <li>Refresh Rate: ≥ 3840 Hz</li>
                   <li>Viewing Angle: 160° / 140°</li>
-                  <li>IP Rating: IP65 (Front)</li>
-                  <li>Operating Temp: -20°C to +60°C</li>
+                  <li>Processing Depth: 12–14 Bit</li>
+                  
+                  <li>Frame Rate:60Hz</li>
+                  
+                  <li>Video Support: 2K HD,4K,UHD</li>
                 </ul>
               </div>
 

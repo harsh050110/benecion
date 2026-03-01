@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import standeeP2 from "../../Assets/asset04.jpg";
-import standeeP25 from "../../Assets/asset04.jpg";
+import standeeP25 from "../../Assets/StandeeP2.jpeg";
 import standeeP18 from "../../Assets/asset04.jpg";
 import standeeIndoorImg from "../../Assets/standee-indoor.jpg";
 import retailImg from "../../Assets/asset02.jpg";
-import mallImg from "../../Assets/asset02.jpg";
+import mallImg from "../../Assets/Standee.jpeg";
 import corporateImg from "../../Assets/asset02.jpg";
 
 import { motion } from "framer-motion";
@@ -91,8 +91,40 @@ const StandeeIndoor = () => {
 
         </div>
       </section>
+      <section className="bg-[#F4F2F3] py-20 px-6">
+  <div className="max-w-7xl mx-auto">
 
-      {/* ================= APPLICATIONS ================= */}
+    <h2 className="text-3xl font-bold mb-12">
+      Related Products
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-10">
+
+      <Link to="/standeeP2" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={standeeP2} alt="Digital Standee LED P-2" className="h-64 w-full object-contain group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Digital Standee LED P-2
+        </div>
+      </Link>
+
+      <Link to="/standeeP25" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={standeeP25} alt="Digital Standee LED P-2.5" className="h-64 w-full object-contain group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Digital Standee LED P-2.5
+        </div>
+      </Link>
+
+      <Link to="/standeeP18" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={standeeP18} alt="Digital Standee LED P-1.8" className="h-64 w-full object-contain group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Digital Standee LED P-1.8
+        </div>
+      </Link>
+
+    </div>
+  </div>
+</section>
+   {/* ================= APPLICATIONS ================= */}
       <section className="bg-white py-24 px-6">
         <div className="max-w-7xl mx-auto">
 
@@ -114,7 +146,7 @@ const StandeeIndoor = () => {
                 <img
                   src={retailImg}
                   alt="Retail"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
+                  className="w-full h-64 object-contain group-hover:scale-110 transition duration-700"
                 />
               </div>
               <div className="p-6 text-center">
@@ -133,7 +165,7 @@ const StandeeIndoor = () => {
                 <img
                   src={mallImg}
                   alt="Shopping Malls"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
+                  className="w-full h-64 object-contain group-hover:scale-110 transition duration-700"
                 />
               </div>
               <div className="p-6 text-center">
@@ -152,7 +184,7 @@ const StandeeIndoor = () => {
                 <img
                   src={corporateImg}
                   alt="Corporate Offices"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
+                  className="w-full h-64 object-contain group-hover:scale-110 transition duration-700"
                 />
               </div>
               <div className="p-6 text-center">
@@ -168,40 +200,14 @@ const StandeeIndoor = () => {
           </div>
 
         </div>
+
+        {/* FOOTER TAGLINE */}
+        <div className="mt-20 text-center">
+          <p className="text-lg font-semibold text-gray-800">
+            Beneicon — TRUST <span className="text-blue-700">TECHNOLOGY </span> IMPACT.
+          </p>
+        </div>
       </section>
-      <section className="bg-[#F4F2F3] py-20 px-6">
-  <div className="max-w-7xl mx-auto">
-
-    <h2 className="text-3xl font-bold mb-12">
-      Related Products
-    </h2>
-
-    <div className="grid md:grid-cols-3 gap-10">
-
-      <Link to="/standeeP2" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
-        <img src={standeeP2} alt="Digital Standee LED P-2" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
-        <div className="p-6 text-center font-semibold">
-          Digital Standee LED P-2
-        </div>
-      </Link>
-
-      <Link to="/standeeP25" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
-        <img src={standeeP25} alt="Digital Standee LED P-2.5" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
-        <div className="p-6 text-center font-semibold">
-          Digital Standee LED P-2.5
-        </div>
-      </Link>
-
-      <Link to="/standeeP18" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
-        <img src={standeeP18} alt="Digital Standee LED P-1.8" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
-        <div className="p-6 text-center font-semibold">
-          Digital Standee LED P-1.8
-        </div>
-      </Link>
-
-    </div>
-  </div>
-</section>
 
     </>
   );

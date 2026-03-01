@@ -21,15 +21,11 @@ const CubeIndoor = () => {
           {/* Content */}
           <div>
             <h1 className="text-4xl font-bold mb-4">
-              Cube LED Video Display
+             Beneicon LED Display Cube
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Beneicon LED Cube Video Display is a 360° multi-face LED display solution 
-              for both indoor and outdoor environments. Manufactured by Beneicon Pixel LLP, 
-              it delivers immersive visuals with seamless panels, vibrant colors, and 
-              flexible installation options—ideal for brand experiences, exhibitions, 
-              retail spaces, and public installations.
+              After public installations. Built using premium-grade LED modules and professional control systems, each unit is precision-engineered and performance-tested to ensure reliable operation and long service life in demanding environments.
             </p>
 
                       <a
@@ -55,26 +51,22 @@ const CubeIndoor = () => {
             360° Immersive Visual Displays for Iconic Brand Experiences
           </h2>
 
-          <p className="text-gray-700 leading-relaxed mb-6">
-            The Beneicon LED Cube Video Display is an innovative multi-face LED display 
-            solution designed to deliver stunning 360-degree visual experiences for 
-            both indoor and outdoor environments. Manufactured by Beneicon Pixel LLP, 
-            this advanced display transforms spaces into dynamic visual landmarks, 
-            capturing attention from every direction.
+          <p className="text-gray-700 leading-relaxed mb-6">Beneicon LED Display Cube, manufactured by Beneicon Pixel LLP, is a premium multi-side LED
+display solution designed for high-impact branding, advertising, and creative installations. 
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            Available in indoor and outdoor configurations, the LED Cube features 
-            seamless LED panels on all visible sides, enabling synchronized or 
-            independent content playback across faces.
+            Available
+in both indoor and outdoor pixel pitch options, this cube display delivers seamless visuals from
+multiple viewing angles, making it ideal for retail spaces, exhibitions, malls, showrooms, and public
+environments. 
           </p>
 
           <p className="text-gray-700 leading-relaxed">
-            Built with high-brightness LEDs, precision engineering, and robust 
-            construction, the outdoor variant ensures excellent visibility even 
-            in daylight and reliable performance in challenging weather conditions, 
-            while the indoor version delivers ultra-sharp visuals and refined 
-            aesthetics for close-range viewing.
+         Built using high-quality LED modules and professional control systems, each cube is
+precision-engineered and performance-tested to ensure stable operation, uniform brightness, and
+long service life. The modular structure allows flexible cube dimensions and multiple-side
+configurations for dynamic visual presentation.
           </p>
         </div>
 
@@ -105,17 +97,17 @@ const CubeIndoor = () => {
 
             <div>
               <p><span className="font-semibold">Brand:</span> Beneicon</p>
-              <p><span className="font-semibold">Manufacturer:</span> Beneicon Pixel LLP</p>
-              <p><span className="font-semibold">Display Type:</span> LED Cube Video Display</p>
-              <p><span className="font-semibold">Pixel Pitch:</span> P2 / P2.5 / P3 / P4</p>
-            </div>
-
-            <div>
-              <p><span className="font-semibold">Brightness:</span> Indoor & High Brightness Outdoor</p>
-              <p><span className="font-semibold">Viewing Angle:</span> Wide-Angle</p>
-              <p><span className="font-semibold">IP Rating:</span> Weatherproof (Outdoor)</p>
-              <p><span className="font-semibold">Installation:</span> Hanging / Fixed / Outdoor Mounting</p>
-              <p><span className="font-semibold">Control System:</span> Centralized LED CMS</p>
+<p><span className="font-semibold">Product:</span> Beneicon LED Display Cube</p>
+<p><span className="font-semibold">Available Pixel Pitch Options:</span> P-2 / P-2.5</p>
+<p><span className="font-semibold">Side Options:</span> 4 Side / 5 Side / 6 Side Display</p>
+<p><span className="font-semibold">Brightness:</span> 500 – 800 nits</p>
+<p><span className="font-semibold">Refresh Rate:</span> ≥ 3840 Hz</p>
+<p><span className="font-semibold">Viewing Angle:</span> 140° (H) / 140° (V)</p>
+<p><span className="font-semibold">Processing Depth:</span> 12 – 14 Bit</p>
+<p><span className="font-semibold">Frame Rate:</span> 60 Hz</p>
+<p><span className="font-semibold">Control System:</span> Plug & Play / Mobile Phone Content Control Supported</p>
+<p><span className="font-semibold">Content Support:</span> 2K HD / 4K UHD</p>
+<p><span className="font-semibold">Usage:</span> Indoor</p>
             </div>
 
           </div>
@@ -158,7 +150,7 @@ const CubeIndoor = () => {
         {/* FOOTER TAGLINE */}
         <div className="mt-20 text-center">
           <p className="text-lg font-semibold text-gray-800">
-            Beneicon — engineered for impact, built for trust.
+            Beneicon — TRUST <span className="text-blue-700">TECHNOLOGY </span> IMPACT.
           </p>
         </div>
 

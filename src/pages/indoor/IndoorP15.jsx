@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import mainImg from "../../Assets/products/indoor-p15.jpg";
 import thumb1 from "../../Assets/products/indoor-p15.jpg";
-import thumb2 from "../../Assets/indoor-led2.jpg";
-import thumb3 from "../../Assets/asset04.jpg";
+import thumb2 from "../../Assets/indoor4.jpeg";
+import thumb3 from "../../Assets/indoor-led2.jpg";
 import thumb4 from "../../Assets/indoor-led3.jpg";
 
 const IndoorP15 = () => {
@@ -48,8 +48,7 @@ const IndoorP15 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Experience ultra-clear visuals with Beneicon Pixel Indoor P-1.5 LED Video Wall — 
-              perfect for corporate spaces, studios, and indoor events.
+              Experience ultra-clear visuals with Beneicon Pixel Indoor P-1.5 LED Video Wall — perfect for corporate spaces, studios, and indoor events.
             </p>
             <a
   href="https://wa.me/+917065993135"
@@ -132,7 +131,10 @@ const IndoorP15 = () => {
                 <ul className="list-disc pl-6 space-y-3">
                   <li>Ultra-Fine Pixel Pitch (P-1.5)</li>
                   <li>High Brightness & Contrast</li>
-                  <li>Seamless Modular Cabinet Design</li>
+                  <li>Ultra-Fine Indoor LED Display for Stunning Visual
+Clarity</li>
+<li>Seamless Modular Display Design </li>
+
                   <li>High Refresh Rate ≥ 3840 Hz</li>
                   <li>Energy Efficient LED Technology</li>
                   <li>Front & Rear Service Access</li>

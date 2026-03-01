@@ -107,12 +107,12 @@ const OutdoorP4 = () => {
                 </h2>
 
                 <ul className="list-disc pl-6 space-y-3 text-gray-700">
-                  <li>Optimized Pixel Pitch (P-4) for long-distance clarity</li>
-                  <li>High Brightness & Contrast for daylight visibility</li>
-                  <li>IP65 Waterproof Front Protection</li>
-                  <li>Seamless Modular Cabinet Design</li>
-                  <li>Energy-Efficient LEDs</li>
-                  <li>Front & Rear Service Maintenance</li>
+                  <li>Fine Pixel Pitch P-4 for Clear Outdoor Visibility</li>
+                  <li>High Brightness Performance</li>
+                  <li>Excellent Sunlight Readability</li>
+                  <li>Smooth Visual Output with High Refresh Rate</li>
+                  <li>Weather-Resistant Outdoor Design</li>
+                  <li>Designed for Professional Outdoor Installations</li>
                 </ul>
               </div>
 
@@ -125,11 +125,14 @@ const OutdoorP4 = () => {
                   <li>Brand: Beneicon</li>
                   <li>Model: Outdoor LED Video Display P-4</li>
                   <li>Pixel Pitch: 4 mm</li>
-                  <li>Brightness: ≥ 5500 nits</li>
+                  <li>Brightness: 5000-5500 nits</li>
                   <li>Refresh Rate: ≥ 3840 Hz</li>
-                  <li>Viewing Angle: 160° / 140°</li>
-                  <li>IP Rating: IP65 (Front) / IP54 (Rear)</li>
-                  <li>Operating Temp: -20°C to +60°C</li>
+                  <li>Viewing Angle: 140° / 140°</li>
+                  <li>Processing Depth: 12–14 Bit</li>
+                  
+                  <li>Frame Rate:60Hz</li>
+                  
+                  <li>Video Support: 2K HD,4K,UHD</li>
                 </ul>
               </div>
 

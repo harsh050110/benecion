@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import Education from "../Assets/Education.jpg";
+import Education from "../Assets/Education.jpeg";
 import corporate from "../Assets/Corporate.jpg";
-import government from "../Assets/Government.jpg";
-import banking from "../Assets/Banking.jpg";
-import hospitality from "../Assets/Hospitality.jpg";
-import retail from "../Assets/Retail.jpg";
+import government from "../Assets/Government.jpeg";
+import banking from "../Assets/Banking.jpeg";
+import hospitality from "../Assets/Hospitality.jpeg";
+import retail from "../Assets/Retail.jpeg";
 const industries = [
   {
     title: "Education",
@@ -40,7 +40,7 @@ const IndustriesSection = () => {
         {/* Heading */}
         <div className="mb-16">
           <h2 className="text-4xl lg:text-5xl  text-blue-700 font-bold">
-            Versatile solutions for every industry.
+            Innovative solutions for businesses of every sector.
           </h2>
         </div>
 

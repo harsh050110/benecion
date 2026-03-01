@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import img1 from "../Assets/asset01.jpg";
 import img2 from "../Assets/asset02.jpg";
-import img3 from "../Assets/asset03.jpg";
-import img4 from "../Assets/asset04.jpg";
+import img3 from "../Assets/indoor2.jpeg";
+import img4 from "../Assets/indoor4.jpeg";
 import img5 from "../Assets/asset05.jpg";
 import img6 from "../Assets/asset06.jpg";
 
@@ -23,10 +23,10 @@ const Hero = () => {
         {/* LEFT CONTENT */}
         <div>
           <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-8">
-            Driving <br />
-            <span className="text-blue-600">Digital India</span> Forward <br />
-            Visualizing a <br />
-            <span className="text-blue-600">Smarter Future.</span>
+            Beneicon <br />
+            <span className="text-blue-600"> is a trusted name in led video display</span> & digital standee, <br />
+            manufactured by   <br />
+            <span className="text-blue-600">Beneicon Pixel LLP</span>
           </h1>
 
           <p className="text-gray-600 text-lg max-w-xl mb-10">

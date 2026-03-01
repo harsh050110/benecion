@@ -25,7 +25,7 @@ const DigitalStandeeA32 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Beneicon Pixel Digital Standee A-Shape 32 Inch offers sharp, 
+              Beneicon  Digital Standee A-Shape 32 Inch offers sharp, 
               vibrant visuals in a compact, stable design — perfect for 
               indoor promotions and displays.
             </p>
@@ -50,13 +50,16 @@ const DigitalStandeeA32 = () => {
         {/* ================= DESCRIPTION ================= */}
         <div className="mt-20">
           <h2 className="text-3xl  text-blue-700 font-bold mb-6">
-            Compact and Versatile Display for Indoor Promotions
+            Beneicon 32 Inch A-Shape Digital Standee
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            The Beneicon Pixel Digital Standee A-Shape 32 Inch is a sleek, 
-            high-definition freestanding display designed for indoor spaces 
-            such as retail stores, offices, exhibitions, and showrooms.
+            Beneicon 32 Inch A-Shape Digital Standee, manufactured by Beneicon Pixel LLP, is a premium
+indoor digital display designed for clear visuals and dynamic content presentation. Its stylish
+A-shape floor-standing design offers a modern appearance, stable structure, space-saving
+installation, and strong visibility in indoor environments. Built using premium-grade display and
+professional control systems, each unit is precision-engineered and performance-tested to ensure
+stable operation and long service life in indoor conditions.
           </p>
 
           <p className="text-gray-700 leading-relaxed">
@@ -85,9 +88,17 @@ const DigitalStandeeA32 = () => {
 
           <div className="grid md:grid-cols-2 gap-8 text-gray-700">
             <div>
+              <p><span className="font-semibold">Brand:</span> Beneicon </p>
+              <p><span className="font-semibold">Product:</span> Digital Standee</p>
+              <p><span className="font-semibold">RAM:</span> 1.5GB</p>
               <p><span className="font-semibold">Screen Size:</span> 32 Inch</p>
               <p><span className="font-semibold">Resolution:</span> Full HD / 1920×1080</p>
-              <p><span className="font-semibold">Brightness:</span> ≥ 400 nits</p>
+              <p><span className="font-semibold">Brightness:</span> 300-500 nits</p>
+              <p><span className="font-semibold">Model No.:</span> B32DS1-A</p>
+              <p><span className="font-semibold">Content Size:</span>1080 x 1920</p>
+              <p><span className="font-semibold">Storage:</span> 8GB</p>
+              <p><span className="font-semibold">Audio:</span> Built-in Speaker</p>
+
             </div>
 
             <div>

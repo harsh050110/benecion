@@ -56,9 +56,11 @@ const DigitalStandeeI43 = () => {
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            The Beneicon Pixel Digital Standee I-Shape 43 Inch is a stylish, 
-            freestanding indoor display designed for offices, retail stores, 
-            exhibitions, and showrooms.
+          Beneicon 43 Inch I-Shape Digital Standee, manufactured by Beneicon Pixel LLP, is a premium
+indoor digital display designed for clear visuals and dynamic content presentation. Its slim I-shape
+floor-standing design offers a modern look, space-saving installation, and strong visibility. Built
+using premium-grade display and professional control systems, each unit is precision-engineered
+and performance-tested to ensure stable operation and long service life in indoor conditions.
           </p>
 
           <p className="text-gray-700 leading-relaxed">
@@ -80,25 +82,38 @@ const DigitalStandeeI43 = () => {
             <li>• Energy Efficient – Low power consumption with high brightness</li>
           </ul>
         </div>
-
         {/* ================= TECHNICAL SPECIFICATIONS ================= */}
-        <div className="mt-20 bg-gray-50 p-10 rounded-2xl">
-          <h2 className="text-3xl  text-blue-700 font-bold mb-8">Technical Specifications</h2>
+<div className="mt-20 bg-gray-50 p-10 rounded-2xl">
+  <h2 className="text-3xl text-blue-700 font-bold mb-8">
+    Technical Specifications
+  </h2>
 
-          <div className="grid md:grid-cols-2 gap-8 text-gray-700">
-            <div>
-              <p><span className="font-semibold">Screen Size:</span> 43 Inch</p>
-              <p><span className="font-semibold">Resolution:</span> Full HD / 1920×1080</p>
-              <p><span className="font-semibold">Brightness:</span> ≥ 450 nits</p>
-            </div>
+  <div className="grid md:grid-cols-2 gap-8 text-gray-700">
+    
+    {/* Left Column */}
+    <div className="space-y-2">
+      <p><span className="font-semibold">Brand:</span> Beneicon</p>
+      <p><span className="font-semibold">Product:</span> Digital Standee (Signage)</p>
+      <p><span className="font-semibold">Model No:</span> B43DS1-I</p>
+      <p><span className="font-semibold">Screen Size:</span> 43 Inch</p>
+      <p><span className="font-semibold">Brightness:</span> 300 – 500 nits</p>
+      <p><span className="font-semibold">Viewing Angle:</span> 178° (H) / 178° (V)</p>
+      <p><span className="font-semibold">Content Size:</span> 1080 × 1920</p>
+    </div>
 
-            <div>
-              <p><span className="font-semibold">Viewing Angle:</span> 160° (H) / 140° (V)</p>
-              <p><span className="font-semibold">Operating Temperature:</span> 0°C to +40°C</p>
-            </div>
-          </div>
-        </div>
+    {/* Right Column */}
+    <div className="space-y-2">
+      <p><span className="font-semibold">RAM:</span> 1.5GB</p>
+      <p><span className="font-semibold">Storage:</span> 8GB</p>
+      <p><span className="font-semibold">Connectivity:</span> USB / LAN / HDMI</p>
+      <p><span className="font-semibold">Audio:</span> Built-in Speakers</p>
+      <p><span className="font-semibold">Body Material:</span> Metal Frame with Tempered Glass</p>
+      <p><span className="font-semibold">Type:</span> Floor Standing Usage</p>
+      <p><span className="font-semibold">Operation:</span> Plug & Play / CMS (Optional)</p>
+    </div>
 
+  </div>
+</div>
         {/* ================= APPLICATIONS ================= */}
         <div className="mt-20">
           <h2 className="text-3xl  text-blue-700 font-bold mb-8">Applications</h2>
@@ -125,7 +140,7 @@ const DigitalStandeeI43 = () => {
         </div>
 
       </div>
-    </div>
+      </div>
   );
 };
 

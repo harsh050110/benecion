@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import mainImg from "../../Assets/products/indoor-p18.png";
 import thumb1 from "../../Assets/products/indoor-p18.png";
 import thumb2 from "../../Assets/indoor-led2.jpg";
-import thumb3 from "../../Assets/asset04.jpg";
+import thumb3 from "../../Assets/indoor4.jpeg";
 import thumb4 from "../../Assets/indoor-led3.jpg";
 
 const IndoorP18 = () => {

@@ -20,7 +20,7 @@ const AboutSection = () => {
 
           {/* Vision */}
           <div className="bg-[#dcdbdb]  p-10 rounded-2xl shadow-sm hover:shadow-lg transition">
-            <h3 className="text-2xl font-semibold mb-4 text-green-600">
+            <h3 className="text-2xl font-semibold mb-4 text-blue-600">
               Our Vision
             </h3>
             <p className="text-gray-700 leading-relaxed">
@@ -53,7 +53,7 @@ const AboutSection = () => {
           <div className="  grid md:grid-cols-3 gap-10">
 
             <div className=" bg-[#dcdbdb] p-8 rounded-xl border hover:border-blue-600 transition">
-              <h4 className=" text-green-600 text-xl font-semibold mb-4">
+              <h4 className=" text-blue-600 text-xl font-semibold mb-4">
                 Precision Engineering
               </h4>
               <p className="text-gray-700">
@@ -73,7 +73,7 @@ const AboutSection = () => {
             </div>
 
             <div className=" bg-[#dcdbdb] p-8 rounded-xl border hover:border-blue-600 transition">
-              <h4 className="text-xl  text-green-600 font-semibold mb-4">
+              <h4 className="text-xl  text-blue-600 font-semibold mb-4">
                 End-to-End Support
               </h4>
               <p className="text-gray-700">

@@ -57,9 +57,12 @@ const DigitalStandeeA43 = () => {
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            The Beneicon Pixel Digital Standee A-Shape 43 Inch is a freestanding 
-            indoor display designed to grab attention in retail stores, offices, 
-            exhibitions, and showrooms.
+            Beneicon 43 Inch A-Shape Digital Standee, manufactured by Beneicon Pixel LLP, is a premium
+indoor digital display designed for clear visuals and dynamic content presentation. Its stylish
+A-shape floor-standing design offers a modern appearance, stable structure, space-saving
+installation, and strong visibility in indoor environments. Built using premium-grade display and
+professional control systems, each unit is precision-engineered and performance-tested to ensure
+stable operation and long service life in indoor conditions.
           </p>
 
           <p className="text-gray-700 leading-relaxed">
@@ -88,9 +91,21 @@ const DigitalStandeeA43 = () => {
 
           <div className="grid md:grid-cols-2 gap-8 text-gray-700">
             <div>
-              <p><span className="font-semibold">Screen Size:</span> 43 Inch</p>
-              <p><span className="font-semibold">Resolution:</span> Full HD / 1920×1080</p>
-              <p><span className="font-semibold">Brightness:</span> ≥ 450 nits</p>
+              <p><span className="font-semibold">Brand:</span> Beneicon</p>
+<p><span className="font-semibold">Product:</span> Digital Standee (Signage)</p>
+<p><span className="font-semibold">Model No:</span> B43DS1-A</p>
+<p><span className="font-semibold">Screen Size:</span> 43 Inch</p>
+<p><span className="font-semibold">Resolution:</span> Full HD / 1920×1080</p>
+<p><span className="font-semibold">Brightness:</span> 300 – 500 nits</p>
+<p><span className="font-semibold">Viewing Angle:</span> 178° (H) / 178° (V)</p>
+<p><span className="font-semibold">Content Size:</span> 1080 × 1920</p>
+<p><span className="font-semibold">RAM:</span> 1.5GB</p>
+<p><span className="font-semibold">Storage:</span> 8GB</p>
+<p><span className="font-semibold">Connectivity:</span> USB / LAN / HDMI</p>
+<p><span className="font-semibold">Audio:</span> Built-in Speakers</p>
+<p><span className="font-semibold">Body Material:</span> Metal Frame with Tempered Glass</p>
+<p><span className="font-semibold">Type:</span> Floor Standing Usage</p>
+<p><span className="font-semibold">Operation:</span> Plug & Play / CMS (Optional)</p>
             </div>
 
             <div>

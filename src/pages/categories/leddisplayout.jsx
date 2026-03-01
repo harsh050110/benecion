@@ -4,11 +4,11 @@ import outdoorImg from "../../Assets/outdoor-led.jpg";
 import { motion } from "framer-motion";
 import { Sparkles, Sun, Puzzle, CloudRain, Maximize2, Wrench } from "lucide-react";
 import adImg from "../../Assets/outdoor-led.jpg";
-import controlImg from "../../Assets/asset02.jpg";
-import retailImg from "../../Assets/outdoor-led.jpg";
+import controlImg from "../../Assets/outdoorads.jpeg";
+import retailImg from "../../Assets/p6.jpeg";
 import p3Img from "../../Assets/products/outdoorP3.jpg";
 import p4Img from "../../Assets/products/outdoor4.jpg";
-import p6Img from "../../Assets/products/outdoor6.jpg";
+import p6Img from "../../Assets/p6-outdoor.jpeg";
 
 
 const features = [
@@ -30,9 +30,9 @@ const Hero = () => {
           
           <div>
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-8">
-              <span className="text-blue-600">Outdoor</span> LED <br />
-              Video Display <br />
-              Solutions
+              <span className="text-blue-600">Beneicon</span> Outdoor LED <br />
+               <br />
+              <span className="text-blue-700">Video Display</span>
             </h1>
 
             <p className="text-gray-600 text-lg max-w-xl mb-10 leading-relaxed">
@@ -87,11 +87,45 @@ const Hero = () => {
 
         </div>
       </section>
-      <section className="bg-white py-24 px-6">
+  
+<section className="bg-[#F4F2F3] py-20 px-6">
   <div className="max-w-7xl mx-auto">
 
+    <h2 className="text-3xl font-bold mb-12">
+      Related Products
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-10">
+
+      <Link to="/outdoorP3" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={p3Img} alt="Outdoor LED P-3" className="h-64 w-full object-contain group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Outdoor LED P-3
+        </div>
+      </Link>
+
+      <Link to="/outdoorP4" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={p4Img} alt="Outdoor LED P-4" className="h-64 w-full object-contain group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Outdoor LED P-4
+        </div>
+      </Link>
+
+      <Link to="/outdoorP6" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img src={p6Img} alt="Outdoor LED P-6" className="h-64 w-full object-contain group-hover:scale-105 transition duration-500" />
+        <div className="p-6 text-center font-semibold">
+          Outdoor LED P-6
+        </div>
+      </Link>
+
+    </div>
+  </div>
+</section>
+  <section className="bg-white py-24 px-6">
+  <div className="max-w-7xl mx-auto object-contain">
+
     {/* Heading */}
-    <div className="text-center mb-16">
+    <div className="text-center mb-16 object-contain">
       <h2 className="text-4xl lg:text-5xl font-bold text-blue-700 mb-4">
         Applications
       </h2>
@@ -109,7 +143,7 @@ const Hero = () => {
           <img
             src={adImg}
             alt="Advertisement & Marketing"
-            className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
+            className="w-full h-64 object-contain group-hover:scale-110 transition duration-700"
           />
         </div>
         <div className="p-6 text-center">
@@ -128,7 +162,7 @@ const Hero = () => {
           <img
             src={controlImg}
             alt="Control Room"
-            className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
+            className="w-full h-64 object-contain group-hover:scale-110 transition duration-700"
           />
         </div>
         <div className="p-6 text-center">
@@ -147,7 +181,7 @@ const Hero = () => {
           <img
             src={retailImg}
             alt="Retail"
-            className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
+            className="w-full h-64 object-contain group-hover:scale-110 transition duration-700"
           />
         </div>
         <div className="p-6 text-center">
@@ -162,39 +196,6 @@ const Hero = () => {
 
     </div>
 
-  </div>
-</section>
-<section className="bg-[#F4F2F3] py-20 px-6">
-  <div className="max-w-7xl mx-auto">
-
-    <h2 className="text-3xl font-bold mb-12">
-      Related Products
-    </h2>
-
-    <div className="grid md:grid-cols-3 gap-10">
-
-      <Link to="/outdoorP3" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
-        <img src={p3Img} alt="Outdoor LED P-3" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
-        <div className="p-6 text-center font-semibold">
-          Outdoor LED P-3
-        </div>
-      </Link>
-
-      <Link to="/outdoorP4" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
-        <img src={p4Img} alt="Outdoor LED P-4" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
-        <div className="p-6 text-center font-semibold">
-          Outdoor LED P-4
-        </div>
-      </Link>
-
-      <Link to="/outdoorP6" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
-        <img src={p6Img} alt="Outdoor LED P-6" className="h-64 w-full object-cover group-hover:scale-105 transition duration-500" />
-        <div className="p-6 text-center font-semibold">
-          Outdoor LED P-6
-        </div>
-      </Link>
-
-    </div>
   </div>
 </section>
 

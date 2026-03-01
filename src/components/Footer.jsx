@@ -33,8 +33,8 @@ const Footer = () => {
           />
         </Link>
           <p className="text-gray-400 leading-relaxed">
-            Beneicon is a trusted LED display and digital solutions partner
-            delivering premium indoor and outdoor LED systems across India.
+            Beneicon is a trusted name in led video display & digital standee, manufactured by Beneicon Pixel LLP
+
           </p>
         </div>
 

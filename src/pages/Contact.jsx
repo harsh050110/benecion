@@ -7,13 +7,13 @@ const Contact = () => {
       <div className="max-w-[1470px] mx-auto px-6 py-20 grid lg:grid-cols-2 gap-16 items-center">
         {/* Left Content */}
         <div>
-          <span className="inline-block bg-blue-300 text-white px-4 py-1 rounded-full text-sm font-medium mb-6">
+          <span className="inline-block bg-blue-700 text-white px-4 py-1 rounded-full text-sm font-medium mb-6">
             Get in Touch
           </span>
 
           <h1 className="text-4xl lg:text-5xl font-serif font-bold mb-6">
             Let's Start a{" "}
-            <span className="text-yellow-500">Conversation</span>
+            <span className="text-blue-600">Conversation</span>
           </h1>
 
           <p className="text-gray-700 max-w-xl leading-relaxed">
@@ -52,7 +52,7 @@ const Contact = () => {
 
         {/* Contact Details */}
         <div>
-          <h2 className="text-3xl font-serif  text-yellow-500 font-bold mb-8">
+          <h2 className="text-3xl font-serif  text-blue-700 font-bold mb-8">
             Get In Touch
           </h2>
 
@@ -111,7 +111,7 @@ const Contact = () => {
 
       {/* CONTACT FORM */}
       <div className="max-w-[900px] mx-auto px-6 pb-32">
-        <h2 className="text-center  text-yellow-500 text-4xl font-serif font-bold mb-16">
+        <h2 className="text-center  text-blue-700 text-4xl font-serif font-bold mb-16">
           Contact Us
         </h2>
 

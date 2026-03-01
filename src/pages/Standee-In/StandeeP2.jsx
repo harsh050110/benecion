@@ -52,11 +52,14 @@ const IndoorStandeeP2 = () => {
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            The Beneicon Pixel LED Standee Indoor P-2 is a compact and versatile 
-            indoor display designed to deliver clear, vibrant visuals in offices, 
-            showrooms, exhibitions, and retail spaces. With a 2mm pixel pitch, 
-            it ensures sharp imagery and professional-quality presentation 
-            in a freestanding form factor.
+           Beneicon LED Digital Standee (Indoor), manufactured by Beneicon Pixel LLP, is a premium indoor
+LED display solution designed for high-impact visual presentation in retail stores, showrooms,
+corporate spaces, and commercial environments.Featuring a 2.5mm pixel pitch, this LED
+module-based standee delivers sharp visuals, vibrant colors, and seamless display clarity for close
+viewing distances. Its slim vertical floor-standing structure provides a modern and elegant
+appearance while ensuring strong visibility and space-efficient installation. Built using high-quality
+LED modules and professional control systems, each unit is precision-engineered and
+performance-tested to ensure stable operation and long service life in indoor environments. 
           </p>
         </div>
 
@@ -80,14 +83,23 @@ const IndoorStandeeP2 = () => {
 
           <div className="grid md:grid-cols-2 gap-8 text-gray-700">
             <div>
-              <p><span className="font-semibold">Pixel Pitch:</span> 2 mm</p>
-              <p><span className="font-semibold">Brightness:</span> ≥ 1000 nits</p>
-              <p><span className="font-semibold">Refresh Rate:</span> ≥ 3840 Hz</p>
+              <p><span className="font-semibold">Brand:</span> Beneicon</p>
+<p><span className="font-semibold">Product:</span> Beneicon LED Digital Standee (Indoor)</p>
+<p><span className="font-semibold">Model No:</span> BLSI2.5-1</p>
+<p><span className="font-semibold">Pixel Pitch:</span> 2.5 mm</p>
+<p><span className="font-semibold">Brightness:</span> 500 – 800 nits</p>
+<p><span className="font-semibold">Standee Size Options:</span> 6 × 2 ft / 6 × 3 ft</p>
+<p><span className="font-semibold">Refresh Rate:</span> ≥ 3840 Hz</p>
+<p><span className="font-semibold">Viewing Angle:</span> 140° (H) / 140° (V)</p>
+<p><span className="font-semibold">Processing Depth:</span> 12 – 14 Bit</p>
+<p><span className="font-semibold">Frame Rate:</span> 60 Hz</p>
+<p><span className="font-semibold">Control System:</span> Plug & Play / Mobile Phone Content Control Supported</p>
+<p><span className="font-semibold">Content Support:</span> 2K HD / 4K UHD</p>
+<p><span className="font-semibold">Installation Type:</span> Floor Standing</p>
+<p><span className="font-semibold">Usage:</span> Indoor</p>
             </div>
 
             <div>
-              <p><span className="font-semibold">Viewing Angle:</span> 160° (H) / 140° (V)</p>
-              <p><span className="font-semibold">Operating Temperature:</span> 0°C to +40°C</p>
             </div>
           </div>
         </div>
