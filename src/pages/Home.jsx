@@ -11,9 +11,10 @@ const Home = () => {
       <Hero />
       <AboutSection />
       <FeaturesSection />
+      <ProductsSection />
       <IndustriesSection />
       <WhyChooseSection />
-      <ProductsSection />
+      
       
     </>
   );

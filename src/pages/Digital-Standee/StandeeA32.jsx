@@ -98,6 +98,7 @@ stable operation and long service life in indoor conditions.
               <p><span className="font-semibold">Content Size:</span>1080 x 1920</p>
               <p><span className="font-semibold">Storage:</span> 8GB</p>
               <p><span className="font-semibold">Audio:</span> Built-in Speaker</p>
+              <p><span className="font-semibold">Operation:</span> Plug & Play / CMC (optional)</p>
 
             </div>
 

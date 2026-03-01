@@ -174,7 +174,6 @@ const About = () => {
           <ul className="space-y-3">
             <li><span className="font-semibold">LED Video Walls</span></li>
             <li><span className="font-semibold">Digital Displays & Standees</span></li>
-            <li><span className="font-semibold">Audio-Visual Integration</span></li>
             <li><span className="font-semibold">Event & Large-Scale Installations</span></li>
           </ul>
         </div>
