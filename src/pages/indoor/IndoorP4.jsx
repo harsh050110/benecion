@@ -177,7 +177,7 @@ and long service life.
 
               <p className="font-medium text-gray-800">
                 Deliver crisp, vibrant, and professional indoor visuals with the 
-                Beneicon Indoor LED Video Display P-1.5 — engineered for clarity, 
+                Beneicon Indoor LED Video Display P-4 — engineered for clarity, 
                 precision, and reliability.
               </p>
 

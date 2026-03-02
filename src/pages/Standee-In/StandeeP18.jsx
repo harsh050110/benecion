@@ -1,5 +1,5 @@
 import React from "react";
-import standeeImg from "../../Assets/digital-standee.jpg"; // replace with your actual image
+import standeeImg from "../../Assets/LED-Video-Standee-Indoor-P-1.8.jpg"; // replace with your actual image
 
 const IndoorStandeeP18 = () => {
   return (
