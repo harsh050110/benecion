@@ -25,7 +25,7 @@ const OutdoorStandeeP25 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Beneicon Pixel Outdoor P-2.5 LED Standee delivers bright, crisp visuals 
+              Beneicon  Outdoor P-2.5 LED Standee delivers bright, crisp visuals 
               in a portable, weatherproof design — perfect for outdoor advertising 
               and events.
             </p>

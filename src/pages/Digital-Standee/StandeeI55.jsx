@@ -1,7 +1,7 @@
 import React from "react";
-import standeeImg from "../../Assets/digital-standee-i-shape-50-inch.jpeg";
+import standeeImg from "../../Assets/Untitled-design-3.png";
 
-const DigitalStandeeI50 = () => {
+const DigitalStandeeI55 = () => {
   return (
     <div className="w-full bg-white py-16">
       <div className="max-w-7xl mx-auto px-6">
@@ -13,7 +13,7 @@ const DigitalStandeeI50 = () => {
           <div>
             <img
               src={standeeImg}
-              alt="Digital Standee I-Shape 50 Inch"
+              alt="Digital Standee I-Shape 55 Inch"
               className="w-full rounded-2xl shadow-xl"
             />
           </div>
@@ -21,11 +21,11 @@ const DigitalStandeeI50 = () => {
           {/* Product Intro */}
           <div>
             <h1 className="text-4xl  text-blue-700 font-bold mb-4">
-              Digital Standee I-Shape – 50 Inch
+              Digital Standee I-Shape – 55 Inch
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Beneicon Pixel Digital Standee I-Shape 50 Inch provides bright, 
+              Beneicon Pixel Digital Standee I-Shape 55 Inch provides bright, 
               sharp, and stable indoor visuals — perfect for offices, retail 
               stores, and exhibitions.
             </p>
@@ -56,8 +56,7 @@ const DigitalStandeeI50 = () => {
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            Beneicon 50 Inch I-Shape Digital Standee, manufactured by Beneicon Pixel LLP, is a premium
-indoor digital display designed for clear visuals and dynamic content presentation. Its slim I-shape
+            indoor digital display designed for clear visuals and dynamic content presentation. Its slim I-shape
 floor-standing design offers a modern look, space-saving installation, and strong visibility. Built
 using premium-grade display and professional control systems, each unit is precision-engineered
 and performance-tested to ensure stable operation and long service life in indoor conditions.
@@ -85,14 +84,14 @@ and performance-tested to ensure stable operation and long service life in indoo
 
         {/* ================= TECHNICAL SPECIFICATIONS ================= */}
         <div className="mt-20 bg-gray-50 p-10 rounded-2xl">
-          <h2 className="text-3xl font-bold mb-8">Technical Specifications</h2>
+          <h2 className="text-3xl  text-blue-700 font-bold mb-8">Technical Specifications</h2>
 
           <div className="grid md:grid-cols-2 gap-8 text-gray-700">
             <div>
               <p><span className="font-semibold">Brand:</span> Beneicon</p>
 <p><span className="font-semibold">Product:</span> Digital Standee (Signage)</p>
-<p><span className="font-semibold">Model No:</span> B50DS1-I</p>
-<p><span className="font-semibold">Screen Size:</span> 50 Inch</p>
+<p><span className="font-semibold">Model No:</span> B55DS1-I</p>
+<p><span className="font-semibold">Screen Size:</span> 55 Inch</p>
 <p><span className="font-semibold">Display:</span> 4K Resolution / 3840×2160</p>
 <p><span className="font-semibold">Brightness:</span> 300 – 500 nits</p>
 <p><span className="font-semibold">Viewing Angle:</span> 178° (H) / 178° (V)</p>
@@ -124,7 +123,7 @@ and performance-tested to ensure stable operation and long service life in indoo
         <div className="mt-20 text-center">
           <p className="text-lg font-semibold text-gray-800">
             Deliver large, high-quality indoor visuals with Beneicon Pixel 
-            Digital Standee I-Shape 50 Inch — sleek, stable, and attention-grabbing.
+            Digital Standee I-Shape 55 Inch — sleek, stable, and attention-grabbing.
           </p>
         </div>
 
@@ -141,4 +140,4 @@ and performance-tested to ensure stable operation and long service life in indoo
   );
 };
 
-export default DigitalStandeeI50;
+export default DigitalStandeeI55;

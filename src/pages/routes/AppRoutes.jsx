@@ -36,6 +36,7 @@ import DigitalStandeeA32 from "../Digital-Standee/StandeeA32";
 import DigitalStandeeA43 from "../Digital-Standee/StandeeA43";
 import DigitalStandeeI43 from "../Digital-Standee/StandeeI-43";
 import DigitalStandeeI50 from "../Digital-Standee/StandeeI50";
+import DigitalStandeeI55 from "../Digital-Standee/StandeeI55";
 
 
 const AppRoutes = () => {
@@ -84,6 +85,7 @@ const AppRoutes = () => {
       <Route path="/DigitalStandeeA43" element={<DigitalStandeeA43 />} />
       <Route path="/DigitalStandeeI43" element={<DigitalStandeeI43 />} />
       <Route path="/DigitalStandeeI50" element={<DigitalStandeeI50 />} />
+      <Route path="/DigitalStandeeI55" element={<DigitalStandeeI55/>}/>
     </Routes>
   );
 };

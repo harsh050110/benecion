@@ -159,7 +159,7 @@ Built with energy-efficient LED technology and a service-friendly structure, thi
 
               <p className="font-medium text-gray-800">
                 Deliver stunning indoor visuals with precision and reliability 
-                using the Beneicon LED Video Display P-1.8 Indoor — engineered 
+                using the Beneicon LED Video Display P-2.5 Indoor — engineered 
                 to perform, designed to impress.
               </p>
 

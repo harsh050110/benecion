@@ -104,7 +104,7 @@ const IndoorDisplay = () => {
           className="h-64 w-full object-contain group-hover:scale-105 transition duration-500"
         />
         <div className="p-6 text-center font-semibold">
-          Indoor LED P-1.5
+          Indoor LED Video Display P-1.5
         </div>
       </Link>
 
@@ -115,7 +115,7 @@ const IndoorDisplay = () => {
           className="h-64 w-full object-contain group-hover:scale-105 transition duration-500"
         />
         <div className="p-6 text-center font-semibold">
-          Indoor LED P-1.8
+          Indoor LED Video Display P-1.8
         </div>
       </Link>
 
@@ -126,7 +126,7 @@ const IndoorDisplay = () => {
           className="h-64 w-full object-contain group-hover:scale-105 transition duration-500"
         />
         <div className="p-6 text-center font-semibold">
-          Indoor LED P-2.5
+          Indoor LED Video Display P-2.5
         </div>
       </Link>
 
@@ -137,7 +137,7 @@ const IndoorDisplay = () => {
           className="h-64 w-full object-contain group-hover:scale-105 transition duration-500"
         />
         <div className="p-6 text-center font-semibold">
-          Indoor LED P-2
+          Indoor LED Video Display P-2
         </div>
       </Link>
 
@@ -148,7 +148,7 @@ const IndoorDisplay = () => {
           className="h-64 w-full object-contain group-hover:scale-105 transition duration-500"
         />
         <div className="p-6 text-center font-semibold">
-          Indoor LED P-4
+          Indoor LED Video Display P-4
         </div>
       </Link>
 

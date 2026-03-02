@@ -2,8 +2,6 @@ import {Link} from "react-router-dom";
 import { motion } from "framer-motion";
 import outdoorImg from "../Assets/outdoor-led.jpg";
 import indoorImg from "../Assets/indoor-led.jpg";
-// import cubeOutImg from "../Assets/cube-outdoor.jpg";
-// import cubeInImg from "../Assets/cube-indoor.jpg";
 import standeeInImg from "../Assets/standee-indoor.jpg";
 import standeeOutImg from "../Assets/standee-outdoor.jpg";
 import digitalStandeeImg from "../Assets/asset03-removebg-preview.png";
@@ -38,7 +36,7 @@ const products = [
   {
     name: "Cube Led Video Display",
     image: CubeImg,
-    path: "/cube-led-video-display"
+    path: "/led-video-cube-indoor"
   },
 ];
 

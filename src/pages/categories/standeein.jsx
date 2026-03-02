@@ -103,21 +103,21 @@ const StandeeIndoor = () => {
       <Link to="/standeeP2" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
         <img src={standeeP2} alt="Digital Standee LED P-2" className="h-64 w-full object-contain group-hover:scale-105 transition duration-500" />
         <div className="p-6 text-center font-semibold">
-          Digital Standee LED P-2
+          LED Video Standee Indoor P-2
         </div>
       </Link>
 
       <Link to="/standeeP25" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
         <img src={standeeP25} alt="Digital Standee LED P-2.5" className="h-64 w-full object-contain group-hover:scale-105 transition duration-500" />
         <div className="p-6 text-center font-semibold">
-          Digital Standee LED P-2.5
+          LED Video Standee Indoor P-2.5
         </div>
       </Link>
 
       <Link to="/standeeP18" className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
         <img src={standeeP18} alt="Digital Standee LED P-1.8" className="h-64 w-full object-contain group-hover:scale-105 transition duration-500" />
         <div className="p-6 text-center font-semibold">
-          Digital Standee LED P-1.8
+          LED Video Standee Indoor P-1.8
         </div>
       </Link>
 

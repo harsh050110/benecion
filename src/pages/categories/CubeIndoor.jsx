@@ -20,7 +20,7 @@ const CubeIndoor = () => {
 
           {/* Content */}
           <div>
-            <h1 className="text-4xl font-bold mb-4">
+            <h1 className="text-4xl text-blue-700 font-bold mb-4">
              Beneicon LED Display Cube
             </h1>
 
@@ -47,7 +47,7 @@ const CubeIndoor = () => {
         {/* DESCRIPTION SECTION */}
         <div className="mt-20">
 
-          <h2 className="text-3xl font-bold mb-6">
+          <h2 className="text-3xl text-blue-700 font-bold mb-6">
             360° Immersive Visual Displays for Iconic Brand Experiences
           </h2>
 
@@ -72,7 +72,7 @@ configurations for dynamic visual presentation.
 
         {/* KEY FEATURES */}
         <div className="mt-20">
-          <h2 className="text-3xl font-bold mb-8">
+          <h2 className="text-3xl text-blue-700 font-bold mb-8">
             Key Features
           </h2>
 
@@ -89,7 +89,7 @@ configurations for dynamic visual presentation.
 
         {/* TECHNICAL HIGHLIGHTS */}
         <div className="mt-20 bg-gray-50 p-10 rounded-2xl">
-          <h2 className="text-3xl font-bold mb-8">
+          <h2 className="text-3xl font-bold text-blue-700 mb-8">
             Technical Highlights
           </h2>
 
@@ -116,7 +116,7 @@ configurations for dynamic visual presentation.
         {/* APPLICATIONS */}
         <div className="mt-20">
 
-          <h2 className="text-3xl font-bold mb-8">
+          <h2 className="text-3xl  text-blue-700 font-bold mb-8">
             Ideal Applications
           </h2>
 
