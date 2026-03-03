@@ -146,13 +146,17 @@ const IndoorP18 = () => {
 
                 <ul className="list-disc pl-6 space-y-3">
                   <li><strong>Brand:</strong> Beneicon</li>
-                  <li><strong>Manufacturer:</strong> Beneicon Pixel LLP</li>
-                  <li><strong>Model:</strong> LED Video Display P-1.8 Indoor</li>
-                  <li><strong>Pixel Pitch:</strong> 1.8 mm</li>
-                  <li><strong>Brightness:</strong> ≥ 1000 nits</li>
-                  <li><strong>Refresh Rate:</strong> ≥ 3840 Hz</li>
-                  <li><strong>Viewing Angle:</strong> 160° (H) / 140° (V)</li>
-                  <li><strong>Operating Temperature:</strong> 0°C to +40°C</li>
+<li><strong>Product:</strong> Indoor LED Video Display P-1.8</li>
+<li><strong>Model No:</strong> BLWI1.8-1</li>
+<li><strong>Pixel Pitch:</strong> 1.86 mm</li>
+<li><strong>Brightness:</strong> 450 – 500 nits</li>
+<li><strong>Refresh Rate:</strong> ≥ 3840 Hz (Standard) / 7680 Hz (Optional)</li>
+<li><strong>Viewing Angle:</strong> 140° (H) / 140° (V)</li>
+<li><strong>Processing Depth:</strong> 12 – 14 Bit</li>
+<li><strong>Frame Rate:</strong> 60 Hz</li>
+<li><strong>Power Consumption (Max):</strong> 300 W/m²</li>
+<li><strong>Power Consumption (Typical):</strong> 90 W/m²</li>
+<li><strong>Operating Temperature:</strong> 0°C to +40°C</li>
                 </ul>
               </div>
 

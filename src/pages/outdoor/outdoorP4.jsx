@@ -45,11 +45,11 @@ const OutdoorP4 = () => {
           {/* RIGHT CONTENT */}
           <div>
             <h1 className="text-3xl text-blue-700 lg:text-4xl font-semibold mb-6">
-              High Brightness Outdoor LED Video Display P-4
+               Outdoor LED Video Display P-4
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              The Beneicon Outdoor LED Video Display P-3 is a high-performance outdoor display engineered
+              The Beneicon Outdoor LED Video Display P-4 is a high-performance outdoor display engineered
 for high-visibility environments where brightness and durability are essential. Manufactured by
 Beneicon Pixel LLP, this display features a 3.076mm pixel pitch, delivering sharp visuals, vibrant
 colors, and excellent clarity even in direct sunlight. Designed for advertising and commercial
