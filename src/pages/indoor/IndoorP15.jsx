@@ -148,13 +148,17 @@ Clarity</li>
 
                 <ul className="list-disc pl-6 space-y-3">
                   <li><strong>Brand:</strong> Beneicon</li>
-                  <li><strong>Manufacturer:</strong> Beneicon Pixel LLP</li>
-                  <li><strong>Model:</strong> Indoor LED Video Display P-1.5</li>
-                  <li><strong>Pixel Pitch:</strong> 1.5 mm</li>
-                  <li><strong>Brightness:</strong> ≥ 1000 nits</li>
-                  <li><strong>Refresh Rate:</strong> ≥ 3840 Hz</li>
-                  <li><strong>Viewing Angle:</strong> 160° (H) / 140° (V)</li>
-                  <li><strong>Operating Temperature:</strong> 0°C to +40°C</li>
+<li><strong>Product:</strong> Indoor LED Video Display P-1.5</li>
+<li><strong>Model No:</strong> BLWI1.5-1</li>
+<li><strong>Pixel Pitch:</strong> 1.538 mm</li>
+<li><strong>Brightness:</strong> 500 – 800 nits</li>
+<li><strong>Refresh Rate:</strong> ≥ 3840 Hz (Standard) / 7680 Hz (Optional)</li>
+<li><strong>Viewing Angle:</strong> 140° (H) / 140° (V)</li>
+<li><strong>Processing Depth:</strong> 12 – 14 Bit</li>
+<li><strong>Frame Rate:</strong> 60 Hz</li>
+<li><strong>Power Consumption (Max):</strong> 488 W/m²</li>
+<li><strong>Power Consumption (Typical):</strong> 163 W/m²</li>
+<li><strong>Operating Temperature:</strong> 0°C to +40°C</li>
                 </ul>
               </div>
 

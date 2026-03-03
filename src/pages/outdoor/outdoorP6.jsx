@@ -128,14 +128,15 @@ const OutdoorP6 = () => {
 
                 <ul className="list-disc pl-6 space-y-3 text-gray-700">
                   <li>Brand: Beneicon</li>
-                  <li>Manufacturer: Beneicon Pixel LLP</li>
-                  <li>Model: Outdoor LED Video Display P-6</li>
-                  <li>Pixel Pitch: 6 mm</li>
-                  <li>Brightness: ≥ 6000 nits</li>
-                  <li>Refresh Rate: ≥ 3840 Hz</li>
-                  <li>Viewing Angle: 160° / 140°</li>
-                  <li>IP Rating: IP65 (Front) / IP54 (Rear)</li>
-                  <li>Operating Temp: -20°C to +60°C</li>
+<li>Product: Outdoor LED Video Display P-6</li>
+<li>Model No: BLWO6.0-1</li>
+<li>Pixel Pitch: 6.0 mm</li>
+<li>Brightness: ≥ 4500 – 5500 nits</li>
+<li>Refresh Rate: ≥ 3840 Hz (High Refresh)</li>
+<li>Viewing Angle: H ≥ 160° / V ≥ 140°</li>
+<li>Processing Depth: 14 Bit</li>
+<li>Frame Rate: 50 – 60 Hz</li>
+<li>Video Support: 2K HD / 4K / UHD</li>
                 </ul>
               </div>
 

@@ -133,13 +133,14 @@ Built with energy-efficient LED technology and a service-friendly structure, thi
 
                 <ul className="list-disc pl-6 space-y-3">
                   <li><strong>Brand:</strong> Beneicon</li>
-                  <li><strong>Manufacturer:</strong> Beneicon Pixel LLP</li>
-                  <li><strong>Model:</strong> LED Video Display P-2.5 Indoor</li>
-                  <li><strong>Pixel Pitch:</strong> 2.5 mm</li>
-                  <li><strong>Brightness:</strong> ≥ 1000 nits</li>
-                  <li><strong>Refresh Rate:</strong> ≥ 3840 Hz</li>
-                  <li><strong>Viewing Angle:</strong> 140° (H) / 140° (V)</li>
-                  <li><strong>Frame Rate:</strong> 60Hz</li>
+<li><strong>Product:</strong> Indoor LED Video Display P-2.5</li>
+<li><strong>Pixel Pitch:</strong> 2.5 mm</li>
+<li><strong>Brightness:</strong> 500 – 1000 nits</li>
+<li><strong>Refresh Rate:</strong> ≥ 3840 Hz (Standard) / 7680 Hz (Optional)</li>
+<li><strong>Viewing Angle:</strong> 140° (H) / 140° (V)</li>
+<li><strong>Processing Depth:</strong> 12 – 14 Bit</li>
+<li><strong>Frame Rate:</strong> 60 Hz</li>
+<li><strong>Video Support:</strong> 2K HD / 4K UHD</li>
                 </ul>
               </div>
 

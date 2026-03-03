@@ -122,17 +122,21 @@ const OutdoorP3 = () => {
                 </h2>
 
                 <ul className="list-disc pl-6 space-y-3 text-gray-700">
-                                    <li>Brand: Beneicon</li>
-                  <li>Model: Outdoor LED Video Display P-4</li>
-                  <li>Pixel Pitch: 4 mm</li>
-                  <li>Brightness: ≥ 5500 nits</li>
-                  <li>Refresh Rate: ≥ 3840 Hz</li>
-                  <li>Viewing Angle: 160° / 140°</li>
-                  <li>Processing Depth: 12–14 Bit</li>
-                  
-                  <li>Frame Rate:60Hz</li>
-                  
-                  <li>Video Support: 2K HD,4K,UHD</li>
+                <li>Brand: Beneicon</li>
+<li>Product: Beneicon LED Digital Standee (Outdoor)</li>
+<li>Model No: BLSO3.0-1</li>
+<li>Pixel Pitch: 3.0 mm</li>
+<li>Brightness: 4500 – 5500 nits</li>
+<li>Standee Size Options: 6 × 2 ft / 6 × 3 ft</li>
+<li>Refresh Rate: ≥ 3840 Hz</li>
+<li>Viewing Angle: 140° (H) / 140° (V)</li>
+<li>Processing Depth: 12 – 14 Bit</li>
+<li>Frame Rate: 60 Hz</li>
+<li>Protection Grade: IP65</li>
+<li>Control System: Plug & Play / Mobile Phone Content Control Supported</li>
+<li>Content Support: 2K HD / 4K UHD</li>
+<li>Installation Type: Floor Standing</li>
+<li>Usage: Outdoor</li>
                 </ul>
               </div>
 
