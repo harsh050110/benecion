@@ -44,14 +44,19 @@ const OutdoorP4 = () => {
 
           {/* RIGHT CONTENT */}
           <div>
-            <h1 className="text-3xl lg:text-4xl font-semibold mb-6">
-              Outdoor LED Video Display P-4
+            <h1 className="text-3xl text-blue-700 lg:text-4xl font-semibold mb-6">
+              High Brightness Outdoor LED Video Display P-4
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Bring your message to life with Beneicon Pixel’s Outdoor P-4 LED Video Wall —
-              bright, durable, and weatherproof for large-scale outdoor displays
-              and impactful advertising.
+              The Beneicon Outdoor LED Video Display P-3 is a high-performance outdoor display engineered
+for high-visibility environments where brightness and durability are essential. Manufactured by
+Beneicon Pixel LLP, this display features a 3.076mm pixel pitch, delivering sharp visuals, vibrant
+colors, and excellent clarity even in direct sunlight. Designed for advertising and commercial
+outdoor applications, it ensures powerful visual impact with a seamless modular design for
+large-format display installations. Built using premium-grade LED modules and professional control
+systems, each unit is precision-engineered and performance-tested to ensure stable operation and
+long service life in outdoor conditions.
             </p>
                         <a
   href="https://wa.me/+917065993135"
@@ -123,11 +128,14 @@ const OutdoorP4 = () => {
 
                 <ul className="list-disc pl-6 space-y-3 text-gray-700">
                   <li>Brand: Beneicon</li>
-                  <li>Model: Outdoor LED Video Display P-4</li>
+                  <li>Model: Outdoor LED Video Display P-3</li>
+                  <li>
+                    Model:BLWO3.0.-1
+                  </li>
                   <li>Pixel Pitch: 4 mm</li>
-                  <li>Brightness: 5000-5500 nits</li>
-                  <li>Refresh Rate: ≥ 3840 Hz</li>
-                  <li>Viewing Angle: 140° / 140°</li>
+                  <li>Brightness: 4500-5000 nits</li>
+                  <li>Refresh Rate: ≥ 3840 Hz(Standard)/7680 Hz(Optional)</li>
+                  <li>Viewing Angle: 140°(H) / 140°(V)</li>
                   <li>Processing Depth: 12–14 Bit</li>
                   
                   <li>Frame Rate:60Hz</li>
