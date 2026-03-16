@@ -30,7 +30,7 @@ const FeaturesSection = () => {
 
         {/* Heading */}
         <div className="text-center mb-20">
-          <h2 className="text-4xl  text-blue-700 lg:text-5xl font-bold">
+          <h2 className="text-4xl  text-blue-600 lg:text-5xl font-bold">
             Features
           </h2>
         </div>
@@ -43,7 +43,7 @@ const FeaturesSection = () => {
               key={index}
               className="bg-white rounded-[40px] p-10 text-center shadow-lg hover:shadow-2xl hover:-translate-y-3 transition duration-500"
             >
-              <div className="flex justify-center mb-6 text-blue-700">
+              <div className="flex justify-center mb-6 text-blue-600">
                 {feature.icon}
               </div>
 

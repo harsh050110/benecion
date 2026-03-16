@@ -24,7 +24,7 @@ const Hero = () => {
         <div>
           <h2 className="text-4xl lg:text-6xl font-bold leading-tight mb-8 text-blue-600">
             Beneicon <br />
-            <span className="text-black"> is a trusted brand in led video display</span> & digital standee, <br />
+            <span > is a trusted brand in led video display</span> & digital standee, <br />
             manufactured by   <br />
             <span className="text-blue-600">Beneicon Pixel LLP</span>
           </h2>
