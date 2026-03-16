@@ -19,7 +19,7 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 mb-24">
 
           {/* Vision */}
-          <div className="bg-[#dcdbdb]  p-10 rounded-2xl shadow-sm hover:shadow-lg transition">
+          <div className="bg-white   p-10 rounded-2xl shadow-sm hover:shadow-lg transition">
             <h3 className="text-2xl font-semibold mb-4 text-blue-600">
               Our Vision
             </h3>
@@ -31,7 +31,7 @@ const AboutSection = () => {
           </div>
 
           {/* Mission */}
-          <div className="bg-[#dcdbdb]  p-10 rounded-2xl shadow-sm hover:shadow-lg transition">
+          <div className="bg-white  p-10 rounded-2xl shadow-sm hover:shadow-lg transition">
             <h3 className="text-2xl font-semibold mb-4 text-blue-600">
               Our Mission
             </h3>
