@@ -22,7 +22,7 @@ const timelineData = [
 
 const WhyChooseSection = () => {
   return (
-    <section className="bg-[#F4F2F3] py-28 px-6 relative">
+    <section className="bg-white py-28 px-6 relative">
       <div className="max-w-6xl mx-auto relative">
 
         <div className="hidden md:block absolute left-1/2 top-0 h-full w-1 bg-blue-600 transform -translate-x-1/2"></div>
