@@ -199,6 +199,12 @@ const StandeeOutdoor = () => {
             </div>
 
           </div>
+                  {/* FOOTER TAGLINE */}
+        <div className="mt-20 text-center">
+          <p className="text-lg font-semibold text-gray-800">
+            Beneicon — TRUST <span className="text-blue-700">TECHNOLOGY </span> IMPACT.
+          </p>
+        </div>
 
         </div>
       </section>
