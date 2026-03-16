@@ -128,9 +128,9 @@ long service life in outdoor conditions.
 
                 <ul className="list-disc pl-6 space-y-3 text-gray-700">
                   <li>Brand: Beneicon</li>
-                  <li>Model: Outdoor LED Video Display P-3</li>
+                  <li>Model: Outdoor LED Video Display P-4</li>
                   <li>
-                    Model:BLWO3.0.-1
+                    Model:BLWO4.0.-1
                   </li>
                   <li>Pixel Pitch: 4 mm</li>
                   <li>Brightness: 4500-5000 nits</li>
