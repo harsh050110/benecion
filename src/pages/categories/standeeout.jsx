@@ -1,7 +1,7 @@
 import React from "react";
 import standeeOutdoorImg from "../../Assets/standee-outdoor.jpg";
-import adImg from "../../Assets/outdoor-led.jpg";
-import eventImg from "../../Assets/asset02.jpg";
+import adImg from "../../Assets/asset02.jpg";
+import eventImg from "../../Assets/image/LED-Video-Standee-Outdoor-P-3.png";
 import mallImg from "../../Assets/asset02.jpg";
 import {Link } from "react-router-dom";
 import p3Img from "../../Assets/image/LED-Video-Standee-Outdoor-P-3.png";

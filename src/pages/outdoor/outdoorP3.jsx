@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import mainImg from "../../Assets/products/outdoorP3.jpg";
-import thumb1 from "../../Assets/products/outdoorP3.jpg";
+import thumb4 from "../../Assets/products/outdoorP3.jpg";
 import thumb2 from"../../Assets/outdoorads.jpeg";
 import thumb3 from "../../Assets/asset05.jpg";
-import thumb4 from "../../Assets/outdoor-led.jpg";
+import thumb1 from "../../Assets/outdoor-led.jpg";
 
 const OutdoorP3 = () => {
   const [selectedImg, setSelectedImg] = useState(mainImg);
@@ -49,7 +49,7 @@ const OutdoorP3 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Experience bold, high-impact visuals with Beneicon Pixel’s Outdoor P-3 LED Video Wall.
+              Experience bold, high-impact visuals with Beneicon Outdoor P-3 LED Video Wall.
               Designed for clarity, brightness, and all-weather durability —
               perfect for outdoor advertising and large-scale displays.
             </p>

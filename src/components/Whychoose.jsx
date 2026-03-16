@@ -23,9 +23,9 @@ const timelineData = [
 const WhyChooseSection = () => {
   return (
     <section className="bg-white py-28 px-6 relative">
-      <div className="max-w-6xl mx-auto relative">
+      <div className="max-w-6xl mx-auto relative ">
 
-        <div className="hidden md:block absolute left-1/2 top-0 h-full w-1 bg-blue-600 transform -translate-x-1/2"></div>
+        <div className=" bg-white hidden md:block absolute left-1/2 top-0 h-full w-1 bg-blue-600 transform -translate-x-1/2"></div>
 
         {timelineData.map((item, index) => {
           const isLeft = index % 2 === 0;
@@ -56,7 +56,7 @@ const WhyChooseSection = () => {
               </div>
 
              
-              <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2">
+              <div className=" bg-white hidden md:flex absolute left-1/2 transform -translate-x-1/2">
                 <div className="w-6 h-6 bg-white border-4 border-blue-600 rounded-full"></div>
               </div>
 

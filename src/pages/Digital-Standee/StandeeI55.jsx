@@ -56,7 +56,7 @@ const DigitalStandeeI55 = () => {
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            indoor digital display designed for clear visuals and dynamic content presentation. Its slim I-shape
+            Indoor digital display designed for clear visuals and dynamic content presentation. Its slim I-shape
 floor-standing design offers a modern look, space-saving installation, and strong visibility. Built
 using premium-grade display and professional control systems, each unit is precision-engineered
 and performance-tested to ensure stable operation and long service life in indoor conditions.
@@ -122,7 +122,7 @@ and performance-tested to ensure stable operation and long service life in indoo
         {/* ================= TAGLINE ================= */}
         <div className="mt-20 text-center">
           <p className="text-lg font-semibold text-gray-800">
-            Deliver large, high-quality indoor visuals with Beneicon Pixel 
+            Deliver large, high-quality indoor visuals with Beneicon 
             Digital Standee I-Shape 55 Inch — sleek, stable, and attention-grabbing.
           </p>
         </div>

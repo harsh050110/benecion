@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import Education from "../Assets/Education.jpeg";
-import corporate from "../Assets/Corporate.jpg";
+import Event from "../Assets/Event.jpeg";
 import government from "../Assets/Government.jpeg";
-import banking from "../Assets/Banking.jpeg";
+import RealEstate from "../Assets/RealEstate.png";
 import hospitality from "../Assets/Hospitality.jpeg";
 import retail from "../Assets/Retail.jpeg";
 const industries = [
@@ -11,16 +11,16 @@ const industries = [
     image: Education,
   },
   {
-    title: "Corporate",
-    image: corporate,
+    title: "Real Estate",
+    image: RealEstate,
   },
   {
-    title: "Government",
+    title: "Events & Advertising",
+    image: Event,
+  },
+  {
+    title: "Government & Public Sector",
     image: government,
-  },
-  {
-    title: "Banking",
-    image: banking,
   },
   {
     title: "Hospitality",
@@ -40,7 +40,7 @@ const IndustriesSection = () => {
         {/* Heading */}
         <div className="mb-16">
           <h2 className="text-4xl lg:text-5xl  text-blue-700 font-bold">
-            Innovative solutions for businesses of every sector.
+            Innovative solutions <span className="text-black">for businesses of every sector.</span>
           </h2>
         </div>
 

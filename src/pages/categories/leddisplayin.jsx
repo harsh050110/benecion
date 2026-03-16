@@ -190,7 +190,7 @@ const IndoorDisplay = () => {
             </div>
 
             {/* Control Room */}
-            <div className="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
+            <div className="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 bg-white">
               <div className="overflow-hidden">
                 <img
                   src={controlImg}

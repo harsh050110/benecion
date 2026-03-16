@@ -6,9 +6,9 @@ import p6Img from "../../Assets/P6IMg.jpeg";
 import p8Img from "../../Assets/Digital Standee50.jpeg";
 import p9Img from "../../Assets/Untitled-design-3.png";
 import standeeImg from "../../Assets/digital-standee.jpg";
-import retailImg from "../../Assets/asset02.jpg";
+import retailImg from "../../Assets/image/Digital-Standee-A-Shape-32-Inch.png";
 import mallImg from "../../Assets/P6IMg.jpeg";
-import eventImg from "../../Assets/asset02.jpg";
+import eventImg from "../../Assets/image/Digital-Standee-I-Shape-43-Inch-1300x1300.jpg";
 
 import { motion } from "framer-motion";
 import { MonitorSmartphone, Wifi, Usb, LayoutTemplate, Volume2, Settings } from "lucide-react";

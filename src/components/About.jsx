@@ -52,7 +52,7 @@ const AboutSection = () => {
 
           <div className="  grid md:grid-cols-3 gap-10">
 
-            <div className=" bg-[#dcdbdb] p-8 rounded-xl border hover:border-blue-600 transition">
+            <div className=" bg-white p-8 rounded-xl border hover:border-blue-600 transition">
               <h4 className=" text-blue-600 text-xl font-semibold mb-4">
                 Precision Engineering
               </h4>
@@ -62,7 +62,7 @@ const AboutSection = () => {
               </p>
             </div>
 
-            <div className=" bg-[#dcdbdb] p-8 rounded-xl border hover:border-blue-600 transition">
+            <div className=" bg-white p-8 rounded-xl border hover:border-blue-600 transition">
               <h4 className="text-xl  text-blue-600 font-semibold mb-4">
                 Pan-India Presence
               </h4>
@@ -72,7 +72,7 @@ const AboutSection = () => {
               </p>
             </div>
 
-            <div className=" bg-[#dcdbdb] p-8 rounded-xl border hover:border-blue-600 transition">
+            <div className=" bg-white p-8 rounded-xl border hover:border-blue-600 transition">
               <h4 className="text-xl  text-blue-600 font-semibold mb-4">
                 End-to-End Support
               </h4>

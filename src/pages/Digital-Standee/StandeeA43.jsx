@@ -25,7 +25,7 @@ const DigitalStandeeA43 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Beneicon Pixel Digital Standee A-Shape 43 Inch provides bright, 
+              Beneicon  Digital Standee A-Shape 43 Inch provides bright, 
               sharp, and stable indoor visuals — perfect for promotions, 
               offices, and showrooms.
             </p>
@@ -128,7 +128,7 @@ stable operation and long service life in indoor conditions.
         <div className="mt-20 text-center">
           <p className="text-lg font-semibold text-gray-800">
             Deliver vivid indoor visuals with stability and style — 
-            Beneicon Pixel Digital Standee A-Shape 43 Inch.
+            Beneicon  Digital Standee A-Shape 43 Inch.
           </p>
         </div>
 

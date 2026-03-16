@@ -121,7 +121,7 @@ stable operation and long service life in indoor conditions.
         {/* ================= TAGLINE ================= */}
         <div className="mt-20 text-center">
           <p className="text-lg font-semibold text-gray-800">
-            Compact, stable, and visually striking — Beneicon Pixel 
+            Compact, stable, and visually striking — Beneicon  
             Digital Standee A-Shape 32 Inch enhances indoor communication effectively.
           </p>
         </div>

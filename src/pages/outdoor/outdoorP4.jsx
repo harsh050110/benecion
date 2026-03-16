@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import mainImg from "../../Assets/products/outdoor-p4.jpeg";
-import thumb1 from "../../Assets/products/outdoor-p4.jpeg";
+import thumb4 from "../../Assets/products/outdoor-p4.jpeg";
 import thumb2 from "../../Assets/products/outdoorp4-2.jpg";
 import thumb3 from "../../Assets/products/outdoorp4-3.png";
-import thumb4 from "../../Assets/products/outdoor4-4.jpg";
+import thumb1 from "../../Assets/products/outdoor4-4.jpg";
 
 const OutdoorP4 = () => {
   const [selectedImg, setSelectedImg] = useState(mainImg);
