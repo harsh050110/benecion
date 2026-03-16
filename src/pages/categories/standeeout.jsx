@@ -147,7 +147,7 @@ const StandeeOutdoor = () => {
                 <img
                   src={adImg}
                   alt="Outdoor Advertising"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
+                  className="w-full h-64 object-contain group-hover:scale-110 transition duration-700"
                 />
               </div>
               <div className="p-6 text-center">
@@ -166,7 +166,7 @@ const StandeeOutdoor = () => {
                 <img
                   src={eventImg}
                   alt="Events & Exhibitions"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
+                  className="w-full h-64 object-contain group-hover:scale-110 transition duration-700"
                 />
               </div>
               <div className="p-6 text-center">
@@ -185,7 +185,7 @@ const StandeeOutdoor = () => {
                 <img
                   src={mallImg}
                   alt="Shopping Areas"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
+                  className="w-full h-64 object-contain group-hover:scale-110 transition duration-700"
                 />
               </div>
               <div className="p-6 text-center">

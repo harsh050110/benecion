@@ -103,7 +103,7 @@ const OutdoorStandeeP25 = () => {
         <div className="mt-20 text-center">
           <p className="text-lg font-semibold text-gray-800">
             Grab attention outdoors with clarity and vibrance — 
-            Beneicon Pixel Outdoor P-2.5 LED Standee.
+            Beneicon  Outdoor P-2.5 LED Standee.
           </p>
         </div>
 

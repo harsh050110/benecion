@@ -49,7 +49,7 @@ const IndoorP25 = () => {
 
             <p className="text-gray-600 mb-6 leading-relaxed">
               
-Beneicon Pixel Indoor P-2.5 LED Video Wall delivers crisp, vibrant, and seamless visuals — ideal for corporate spaces, studios, and indoor events.
+Beneicon  Indoor P-2.5 LED Video Wall delivers crisp, vibrant, and seamless visuals — ideal for corporate spaces, studios, and indoor events.
             </p>
             <a
   href="https://wa.me/+917065993135"

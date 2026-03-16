@@ -25,7 +25,7 @@ const OutdoorStandeeP3 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Beneicon Pixel Outdoor P-3 LED Standee offers bright, crisp, and 
+              Beneicon  Outdoor P-3 LED Standee offers bright, crisp, and 
               weatherproof visuals in a portable design — perfect for outdoor 
               advertising and events.
             </p>
@@ -49,7 +49,7 @@ const OutdoorStandeeP3 = () => {
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            The Beneicon Pixel LED Standee Outdoor P-3 delivers bright, sharp, 
+            The Beneicon  LED Standee Outdoor P-3 delivers bright, sharp, 
             and engaging visuals in outdoor environments. With a 3mm pixel pitch, 
             it is ideal for advertising, live events, exhibitions, and public spaces 
             where attention-grabbing displays are essential.
@@ -109,7 +109,7 @@ const OutdoorStandeeP3 = () => {
         <div className="mt-20 text-center">
           <p className="text-lg font-semibold text-gray-800">
             Deliver bright, engaging outdoor visuals anywhere with 
-            Beneicon Pixel Outdoor P-3 LED Standee.
+            Beneicon  Outdoor P-3 LED Standee.
           </p>
         </div>
 

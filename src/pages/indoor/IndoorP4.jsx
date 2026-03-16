@@ -48,7 +48,7 @@ const IndoorP4 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-             Beneicon Pixel Indoor P-4 LED Video Wall provides bright, seamless visuals — perfect for auditoriums, conference halls, and large indoor spaces.
+             Beneicon  Indoor P-4 LED Video Wall provides bright, seamless visuals — perfect for auditoriums, conference halls, and large indoor spaces.
             </p>
             <a
   href="https://wa.me/+917065993135"

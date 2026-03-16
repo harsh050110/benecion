@@ -25,7 +25,7 @@ const IndoorStandeeP25 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Beneicon Pixel Indoor P-2.5 LED Standee provides crisp, vibrant 
+              Beneicon  Indoor P-2.5 LED Standee provides crisp, vibrant 
               visuals in a portable freestanding design — perfect for offices, 
               showrooms, and indoor events.
             </p>
@@ -52,7 +52,7 @@ const IndoorStandeeP25 = () => {
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            The Beneicon Pixel LED Standee Indoor P-2.5 delivers high-definition 
+            The Beneicon  LED Standee Indoor P-2.5 delivers high-definition 
             visuals in a portable, freestanding design. With a 2.5mm pixel pitch, 
             it provides sharp, vivid images ideal for corporate offices, 
             showrooms, exhibitions, retail spaces, and indoor events — combining 

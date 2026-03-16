@@ -49,7 +49,7 @@ const IndoorP2 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Beneicon Pixel Indoor P-2 LED Video Wall offers sharp, seamless,
+              Beneicon  Indoor P-2 LED Video Wall offers sharp, seamless,
               and vibrant indoor visuals — perfect for corporate spaces,
               studios, and events.
             </p>

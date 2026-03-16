@@ -25,7 +25,7 @@ const IndoorStandeeP2 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Beneicon Pixel Indoor P-2 LED Standee provides sharp, vibrant visuals 
+              Beneicon  Indoor P-2 LED Standee provides sharp, vibrant visuals 
               in a portable, freestanding design — perfect for offices, showrooms, 
               and exhibitions.
             </p>
@@ -85,7 +85,7 @@ performance-tested to ensure stable operation and long service life in indoor en
             <div>
               <p><span className="font-semibold">Brand:</span> Beneicon</p>
 <p><span className="font-semibold">Product:</span> Beneicon LED Digital Standee (Indoor)</p>
-<p><span className="font-semibold">Model No:</span> BLSI2.5-1</p>
+<p><span className="font-semibold">Model No:</span> BLSI2.0-1</p>
 <p><span className="font-semibold">Pixel Pitch:</span> 2.5 mm</p>
 <p><span className="font-semibold">Brightness:</span> 500 – 800 nits</p>
 <p><span className="font-semibold">Standee Size Options:</span> 6 × 2 ft / 6 × 3 ft</p>
