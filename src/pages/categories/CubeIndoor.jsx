@@ -96,6 +96,7 @@ configurations for dynamic visual presentation.
           <div className="grid md:grid-cols-2 gap-8 text-gray-700">
 
             <div>
+               <h3 className="text-xl font-semibold mb-4">Indoor Applications</h3>
               <p><span className="font-semibold">Brand:</span> Beneicon</p>
 <p><span className="font-semibold">Product:</span> Beneicon LED Display Cube</p>
 <p><span className="font-semibold">Available Pixel Pitch Options:</span> P-2 / P-2.5</p>
@@ -110,6 +111,7 @@ configurations for dynamic visual presentation.
 <p><span className="font-semibold">Usage:</span> Indoor</p>
             </div>
                         <div>
+                           <h3 className="text-xl font-semibold mb-4">Outdoor Applications</h3>
               <p><span className="font-semibold">Brand:</span> Beneicon</p>
 <p><span className="font-semibold">Product:</span> Beneicon LED Display Cube</p>
 <p><span className="font-semibold">Available Pixel Pitch Options:</span> P-3/ P-4</p>
