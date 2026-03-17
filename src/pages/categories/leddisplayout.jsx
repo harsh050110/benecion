@@ -6,8 +6,8 @@ import { Sparkles, Sun, Puzzle, CloudRain, Maximize2, Wrench } from "lucide-reac
 import adImg from "../../Assets/outdoor-led.jpg";
 import controlImg from "../../Assets/outdoorads.jpeg";
 import retailImg from "../../Assets/p6.jpeg";
-import p3Img from "../../Assets/products/outdoorP3.jpg";
-import p4Img from "../../Assets/products/outdoor4.jpg";
+import p3Img from "../../Assets/outdoor-led.jpg";
+import p4Img from "../../Assets/products/outdoor4-4.jpg";
 import p6Img from "../../Assets/p6-outdoor.jpeg";
 
 

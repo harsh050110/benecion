@@ -25,7 +25,7 @@ const OutdoorStandeeP4 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Beneicon Pixel Outdoor P-4 LED Standee provides bright, clear, 
+              Beneicon  Outdoor P-4 LED Standee provides bright, clear, 
               and weatherproof visuals in a portable design — ideal for 
               outdoor advertising and events.
             </p>
@@ -49,7 +49,7 @@ const OutdoorStandeeP4 = () => {
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            The Beneicon Pixel LED Standee Outdoor P-4 is designed to deliver 
+            The Beneicon  LED Standee Outdoor P-4 is designed to deliver 
             bright, sharp, and engaging visuals in outdoor environments. 
             With a 4mm pixel pitch, it is ideal for advertising, events, 
             exhibitions, and public spaces where maximum visibility and 
@@ -109,7 +109,7 @@ const OutdoorStandeeP4 = () => {
         <div className="mt-20 text-center">
           <p className="text-lg font-semibold text-gray-800">
             Make your outdoor message stand out with clarity and impact — 
-            Beneicon Pixel Outdoor P-4 LED Standee.
+            Beneicon  Outdoor P-4 LED Standee.
           </p>
         </div>
 

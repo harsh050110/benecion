@@ -27,7 +27,7 @@ const OutdoorP6 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Power your outdoor advertising with Beneicon Pixel’s Outdoor P-6 LED Video Wall — 
+              Power your outdoor advertising with Beneicon  Outdoor P-6 LED Video Wall — 
               bright, durable, and built for large-scale visibility in any weather.
             </p>
                         <a
@@ -157,10 +157,6 @@ const OutdoorP6 = () => {
                 <p className="text-gray-700 mt-6 font-medium">
                   Make every outdoor moment bigger, brighter, and bolder with the Beneicon 
                   Outdoor LED Video Display P-6 — built to command attention at scale.
-                </p>
-
-                <p className="text-gray-800 font-semibold mt-2">
-                  Beneicon — engineered for impact, built for trust.
                 </p>
               </div>
 

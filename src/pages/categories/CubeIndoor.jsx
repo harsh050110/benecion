@@ -109,6 +109,21 @@ configurations for dynamic visual presentation.
 <p><span className="font-semibold">Content Support:</span> 2K HD / 4K UHD</p>
 <p><span className="font-semibold">Usage:</span> Indoor</p>
             </div>
+                        <div>
+              <p><span className="font-semibold">Brand:</span> Beneicon</p>
+<p><span className="font-semibold">Product:</span> Beneicon LED Display Cube</p>
+<p><span className="font-semibold">Available Pixel Pitch Options:</span> P-3/ P-4</p>
+<p><span className="font-semibold">Side Options:</span> 4 Side / 5 Side / 6 Side Display</p>
+<p><span className="font-semibold">Brightness:</span> 4500 – 5500 nits</p>
+<p><span className="font-semibold">Refresh Rate:</span> ≥ 3840 Hz</p>
+<p><span className="font-semibold">Viewing Angle:</span> 140° (H) / 140° (V)</p>
+<p><span className="font-semibold">Processing Depth:</span> 12 – 14 Bit</p>
+<p><span className="font-semibold">Frame Rate:</span> 60 Hz</p>
+<p><span className="font-semibold">Control System:</span> Plug & Play / Mobile Phone Content Control Supported</p>
+<p><span className="font-semibold">Content Support:</span> 2K HD / 4K UHD</p>
+<p><span className="font-semibold">Usage:</span> Indoor</p>
+            </div>
+
 
           </div>
         </div>

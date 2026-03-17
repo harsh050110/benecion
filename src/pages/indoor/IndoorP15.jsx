@@ -48,7 +48,7 @@ const IndoorP15 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Experience ultra-clear visuals with Beneicon Pixel Indoor P-1.5 LED Video Wall — perfect for corporate spaces, studios, and indoor events.
+              Experience ultra-clear visuals with Beneicon Indoor P-1.5 LED Video Wall — perfect for corporate spaces, studios, and indoor events.
             </p>
             <a
   href="https://wa.me/+917065993135"

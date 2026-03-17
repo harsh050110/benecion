@@ -25,7 +25,7 @@ const IndoorStandeeP18 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Beneicon Pixel Indoor P-1.8 LED Standee offers crisp, vibrant visuals 
+              Beneicon  Indoor P-1.8 LED Standee offers crisp, vibrant visuals 
               in a compact, freestanding design — ideal for offices, showrooms, 
               and indoor promotions.
             </p>
