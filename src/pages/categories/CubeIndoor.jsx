@@ -123,7 +123,7 @@ configurations for dynamic visual presentation.
 <p><span className="font-semibold">Frame Rate:</span> 60 Hz</p>
 <p><span className="font-semibold">Control System:</span> Plug & Play / Mobile Phone Content Control Supported</p>
 <p><span className="font-semibold">Content Support:</span> 2K HD / 4K UHD</p>
-<p><span className="font-semibold">Usage:</span> Indoor</p>
+<p><span className="font-semibold">Usage:</span> Outdoor</p>
             </div>
 
 

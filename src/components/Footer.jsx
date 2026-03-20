@@ -32,7 +32,7 @@ const Footer = () => {
             className="h-20 w-20 object-contain"
           />
         </Link>
-          <p className="text-gray-400 leading-relaxed">
+          <p className="text-gray-200 leading-relaxed">
             Beneicon is a trusted name in led video display & digital standee, manufactured by Beneicon Pixel LLP
 
           </p>

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Education from "../Assets/Education.jpeg";
+import Education from "../Assets/Education.jpg";
 import Event from "../Assets/Event.jpeg";
 import government from "../Assets/Government.jpeg";
 import RealEstate from "../Assets/RealEstate.png";

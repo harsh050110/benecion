@@ -5,7 +5,7 @@ import logo from "../Assets/logo-removebg-preview.png";
 const CSSMathProduct = [
   { name: "LED Video Display Outdoor", path: "/led-video-display-outdoor" },
   { name: "LED Video Display Indoor", path: "/led-video-display-indoor" },
-  { name: "LED Video Cube Indoor", path: "/led-video-cube-indoor" },
+  { name: "LED Video Cube", path: "/led-video-cube-indoor" },
   { name: "LED Video Display Standee Indoor", path: "/led-video-standee-indoor" },
   { name: "LED Video Display Standee Outdoor", path: "/led-video-standee-outdoor" },
   { name: "Digital Standee", path: "/digital-standee" },

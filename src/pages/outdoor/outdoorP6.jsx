@@ -153,11 +153,6 @@ const OutdoorP6 = () => {
                   <li>Public Squares & City Installations</li>
                   <li>Smart City & Infrastructure Displays</li>
                 </ul>
-
-                <p className="text-gray-700 mt-6 font-medium">
-                  Make every outdoor moment bigger, brighter, and bolder with the Beneicon 
-                  Outdoor LED Video Display P-6 — built to command attention at scale.
-                </p>
               </div>
 
             </div>

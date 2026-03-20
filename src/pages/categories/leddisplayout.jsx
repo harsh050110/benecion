@@ -7,7 +7,7 @@ import adImg from "../../Assets/outdoor-led.jpg";
 import controlImg from "../../Assets/outdoorads.jpeg";
 import retailImg from "../../Assets/p6.jpeg";
 import p3Img from "../../Assets/outdoor-led.jpg";
-import p4Img from "../../Assets/products/outdoor4-4.jpg";
+import p4Img from "../../Assets/products/outdoorp4-3.png";
 import p6Img from "../../Assets/p6-outdoor.jpeg";
 
 
@@ -30,8 +30,7 @@ const Hero = () => {
           
           <div>
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-8">
-              <span className="text-blue-600">Beneicon</span> Outdoor LED
-              
+              <span className="text-blue-600">Beneicon</span> Outdoor LED<br></br>
               <span className="text-blue-700">Video Display</span>
             </h1>
 
