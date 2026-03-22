@@ -48,7 +48,7 @@ const OutdoorStandeeP25 = () => {
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            The Beneicon Pixel LED Standee Outdoor P-2.5 combines portability 
+            The Beneicon  LED Standee Outdoor P-2.5 combines portability 
             with powerful visual performance for outdoor environments. 
             With a 2.5mm pixel pitch, it delivers bright, sharp, and vibrant images, 
             making it ideal for advertising, events, exhibitions, and public spaces 

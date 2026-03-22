@@ -2,9 +2,9 @@ import React from "react";
 import {Link} from "react-router-dom";
 import indoorp1_5 from "../../Assets/products/indoor-p15.jpg";
 import indoorp1_8 from "../../Assets/products/indoor-p18.png";
-import indoorp2 from "../../Assets/products/indoorp2.jpeg";
-import indoorp2_5 from "../../Assets/products/indoor-p25.png";
-import indoorp4 from "../../Assets/products/indoorp4.jpg";
+import indoorp2 from "../../Assets/products/indoor-p18.png";
+import indoorp2_5 from "../../Assets/products/indoor-p15.jpg";
+import indoorp4 from "../../Assets/products/indoor-p15.jpg";
 
 import indoorImg from "../../Assets/indoor-led.jpg";
 import adImg from "../../Assets/retail2.jpeg";

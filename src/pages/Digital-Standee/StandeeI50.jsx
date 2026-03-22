@@ -1,5 +1,5 @@
 import React from "react";
-import standeeImg from "../../Assets/digital-standee-i-shape-50-inch.jpeg";
+import standeeImg from "../../Assets/digital-standee.jpg";
 
 const DigitalStandeeI50 = () => {
   return (

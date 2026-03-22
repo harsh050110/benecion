@@ -116,7 +116,7 @@ performance-tested to ensure stable operation and long service life in indoor en
         {/* ================= TAGLINE ================= */}
         <div className="mt-20 text-center">
           <p className="text-lg font-semibold text-gray-800">
-            Deliver crisp, high-impact indoor visuals with Beneicon Pixel’s 
+            Deliver crisp, high-impact indoor visuals with Beneicon
             Indoor P-2 LED Standee — compact, portable, and professional.
           </p>
         </div>

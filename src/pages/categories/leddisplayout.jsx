@@ -8,7 +8,7 @@ import controlImg from "../../Assets/outdoorads.jpeg";
 import retailImg from "../../Assets/p6.jpeg";
 import p3Img from "../../Assets/outdoor-led.jpg";
 import p4Img from "../../Assets/products/outdoorp4-3.png";
-import p6Img from "../../Assets/p6-outdoor.jpeg";
+import p6Img from "../../Assets/p6.jpeg";
 
 
 const features = [

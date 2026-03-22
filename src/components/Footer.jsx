@@ -4,7 +4,7 @@ import {
   FaMapMarkerAlt 
 } from "react-icons/fa";
 import {Link } from "react-router-dom";
-import logo from "../Assets/logo-removebg-preview.png";
+import logo from "../Assets/logo2-removebg-preview.png";
 
 import { FaTwitter, FaFacebookF,  FaWhatsapp,FaLinkedin, FaYoutube , FaInstagram} from "react-icons/fa";
 
@@ -71,7 +71,7 @@ const Footer = () => {
             Contact Us
           </h3>
 
-          <div className="space-y-4 text-gray-400">
+          <div className="space-y-4 text-gray-200">
 
             <div className="flex items-start gap-3">
               <FaEnvelope className="mt-1 text-blue-700" />

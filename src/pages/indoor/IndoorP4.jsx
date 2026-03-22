@@ -150,7 +150,7 @@ and long service life.
                 <ul className="list-disc pl-6 space-y-3">
                   <li><strong>Brand:</strong> Beneicon</li>
                   <li><strong>Manufacturer:</strong> Beneicon Pixel LLP</li>
-                  <li><strong>Model:</strong> Indoor LED Video Display P-1.5</li>
+                  <li><strong>Model:</strong> Indoor LED Video Display P-4</li>
                   <li><strong>Pixel Pitch:</strong> 4.0 mm</li>
                   <li><strong>Brightness:</strong> ≥ 1000 nits</li>
                   <li><strong>Refresh Rate:</strong> ≥ 3840 Hz(Standard)/7680Hz(Optional)</li>
