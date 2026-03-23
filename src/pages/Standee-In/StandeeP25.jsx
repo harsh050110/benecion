@@ -114,7 +114,7 @@ const IndoorStandeeP25 = () => {
         <div className="mt-20 text-center">
           <p className="text-lg font-semibold text-gray-800">
             Professional-quality indoor visuals in a compact, portable form — 
-            Beneicon Pixel Indoor P-2.5 LED Standee.
+            Beneicon  Indoor P-2.5 LED Standee.
           </p>
         </div>
 

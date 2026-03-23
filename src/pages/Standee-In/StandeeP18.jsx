@@ -104,7 +104,7 @@ const IndoorStandeeP18 = () => {
         {/* ================= TAGLINE ================= */}
         <div className="mt-20 text-center">
           <p className="text-lg font-semibold text-gray-800">
-            Deliver vibrant indoor visuals with Beneicon Pixel’s Indoor P-1.8 LED Standee — compact, professional, and attention-grabbing.
+            Deliver vibrant indoor visuals with Beneicon Indoor P-1.8 LED Standee — compact, professional, and attention-grabbing.
           </p>
         </div>
 
