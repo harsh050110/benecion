@@ -211,7 +211,7 @@ const DigitalStandee = () => {
                       {/* FOOTER TAGLINE */}
         <div className="mt-20 text-center">
           <p className="text-lg font-semibold text-gray-800">
-            Beneicon — TRUST <span className="text-blue-700">TECHNOLOGY </span> IMPACT.
+            <span className="text-blue-600 font-semibold">Beneicon</span> — Trust. Technology. Impact.
           </p>
         </div>
       </section>
