@@ -51,7 +51,7 @@ const OutdoorP4 = () => {
             <p className="text-gray-600 mb-6 leading-relaxed">
               The Beneicon Outdoor LED Video Display P-4 is a high-performance outdoor display engineered
 for high-visibility environments where brightness and durability are essential. Manufactured by
-Beneicon Pixel LLP, this display features a 3.076mm pixel pitch, delivering sharp visuals, vibrant
+Beneicon  LLP, this display features a 3.076mm pixel pitch, delivering sharp visuals, vibrant
 colors, and excellent clarity even in direct sunlight. Designed for advertising and commercial
 outdoor applications, it ensures powerful visual impact with a seamless modular design for
 large-format display installations. Built using premium-grade LED modules and professional control

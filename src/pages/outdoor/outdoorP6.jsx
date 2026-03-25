@@ -22,7 +22,7 @@ const OutdoorP6 = () => {
 
           {/* RIGHT CONTENT */}
           <div>
-            <h1 className="text-3xl lg:text-4xl font-semibold mb-6">
+            <h1 className="text-3xl lg:text-4xl font-semibold mb-6 text-blue-600">
               Outdoor LED Video Display P-6
             </h1>
 

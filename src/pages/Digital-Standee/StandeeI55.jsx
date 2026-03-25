@@ -25,7 +25,7 @@ const DigitalStandeeI55 = () => {
             </h1>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Beneicon Pixel Digital Standee I-Shape 55 Inch provides bright, 
+              Beneicon  Digital Standee I-Shape 55 Inch provides bright, 
               sharp, and stable indoor visuals — perfect for offices, retail 
               stores, and exhibitions.
             </p>
