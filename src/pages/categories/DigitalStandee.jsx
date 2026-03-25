@@ -1,8 +1,8 @@
 import React from "react";
 import {Link } from "react-router-dom";
 import p3Img from "../../Assets/image/Digital-Standee-A-Shape-32-Inch.png";
-import p4Img from"../../Assets/image/Digital-Standee-I-Shape-43-Inch-1300x1300.jpg";
-import p6Img from "../../Assets/P6IMg.jpeg";
+import p6Img from"../../Assets/image/Digital-Standee-I-Shape-43-Inch-1300x1300.jpg";
+import p4Img from "../../Assets/P6IMg.jpeg";
 import p8Img from "../../Assets/Digital Standee50.jpeg";
 import p9Img from "../../Assets/Untitled-design-3.png";
 import standeeImg from "../../Assets/digital-standee.jpg";

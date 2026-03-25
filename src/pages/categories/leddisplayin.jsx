@@ -7,9 +7,9 @@ import indoorp2_5 from "../../Assets/LED Video Wall Indoor P-2.jpg";
 import indoorp4 from "../../Assets/LED Video Wall Outdoor P-2.5.jpg";
 
 import indoorImg from "../../Assets/indoor-led.jpg";
-import adImg from "../../Assets/retail2.jpeg";
+import adImg from "../../Assets/Copy of LED Video Wall Indoor P-4.png";
 import controlImg from "../../Assets/control.jpeg";
-import retailImg from "../../Assets/indoor2.jpeg";
+import retailImg from "../../Assets/LED Video Wall Outdoor P-2.5.jpg";
 
 import { motion } from "framer-motion";
 import { Sparkles, Monitor, Puzzle, Users, Maximize2, Wrench } from "lucide-react";
