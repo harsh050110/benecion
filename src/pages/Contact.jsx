@@ -11,7 +11,7 @@ const Contact = () => {
             Get in Touch
           </span>
 
-          <h1 className="text-4xl lg:text-5xl font-serif font-bold mb-6">
+          <h1 className="text-4xl lg:text-5xl font-serif font-bold mb-6 text-blue-600">
             Let's Start a{" "}
             <span className="text-blue-600">Conversation</span>
           </h1>
@@ -123,7 +123,6 @@ const Contact = () => {
               </label>
               <input
                 type="text"
-                placeholder="John Doe"
                 className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-400"
               />
             </div>
@@ -134,7 +133,6 @@ const Contact = () => {
               </label>
               <input
                 type="email"
-                placeholder="john@example.com"
                 className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-400"
               />
             </div>
@@ -147,7 +145,6 @@ const Contact = () => {
               </label>
               <input
                 type="text"
-                placeholder="+91 98765 43210"
                 className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-400"
               />
             </div>
@@ -158,7 +155,6 @@ const Contact = () => {
               </label>
               <input
                 type="text"
-                placeholder="How can we help?"
                 className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-400"
               />
             </div>
@@ -170,7 +166,6 @@ const Contact = () => {
             </label>
             <textarea
               rows="5"
-              placeholder="Tell us about your query..."
               className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-400"
             ></textarea>
           </div>
