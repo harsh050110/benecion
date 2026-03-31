@@ -112,7 +112,7 @@ long service life in outdoor conditions.
                 </h2>
 
                 <ul className="list-disc pl-6 space-y-3 text-gray-700">
-                  <li>Fine Pixel Pitch P-4 for Clear Outdoor Visibility</li>
+                  <li>Fine  Pitch P-4 for Clear Outdoor Visibility</li>
                   <li>High Brightness Performance</li>
                   <li>Excellent Sunlight Readability</li>
                   <li>Smooth Visual Output with High Refresh Rate</li>
