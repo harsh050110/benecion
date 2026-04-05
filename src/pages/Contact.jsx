@@ -86,7 +86,7 @@ const Contact = () => {
               <div>
                 <p className="font-semibold">Address</p>
                 <p className="text-gray-600 max-w-sm">
-                  482, Sunview Apt., Dwarka Sector 11, Dwarka, Delhi-110075
+                  2nd Floor Plot no 51 Mohit nagar Dwarka New Delhi Delhi - 110078
                 </p>
               </div>
             </div>

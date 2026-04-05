@@ -1,30 +1,30 @@
 import { motion } from "framer-motion";
-import Education from "../Assets/Education.jpg";
-import Event from "../Assets/Event.jpeg";
-import government from "../Assets/Government.jpeg";
-import RealEstate from "../Assets/RealEstate.png";
-import hospitality from "../Assets/Hospitality.jpeg";
-import retail from "../Assets/Retail.jpeg";
+import Commercial  from "../Assets/Commerical.jpg";
+import broadcasting from "../Assets/Broadcasting.jpg";
+import Sports from "../Assets/Sports.jpeg";
+import DOOH from "../Assets/DOOH.jpg";
+import government from "../Assets/Government.jpg";
+import retail from "../Assets/Retail.jpg";
 const industries = [
   {
-    title: "Education",
-    image: Education,
+    title: "DOOH",
+    image: DOOH,
   },
   {
-    title: "Real Estate",
-    image: RealEstate,
+    title: "Sports",
+    image: Sports,
   },
   {
-    title: "Events & Advertising",
-    image: Event,
+    title: "Commercial",
+    image: Commercial,
   },
   {
     title: "Government & Public Sector",
     image: government,
   },
   {
-    title: "Hospitality",
-    image: hospitality,
+    title: "Broadcasting",
+    image: broadcasting,
   },
   {
     title: "Retail",

@@ -87,8 +87,7 @@ const Footer = () => {
             <div className="flex items-start gap-3">
               <FaMapMarkerAlt className="mt-1 text-blue-700" />
               <span>
-                482, Sunview Apt., Dwarka Sector 11  Dwarka, Delhi-110075
-                India
+                2nd Floor Plot no 51 Mohit nagar Dwarka New Delhi Delhi - 110078
               </span>
             </div>
 
