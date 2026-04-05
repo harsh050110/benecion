@@ -139,11 +139,40 @@ const Footer = () => {
 
       </div>
 
-      {/* Bottom Bar */}
-      <div className="border-t border-gray-700 mt-16 pt-6 text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center">
-        <p>© 2025 Beneicon Pixel LLP. All rights reserved.</p>
-        <p>Designed & Developed by Brainixt</p>
-      </div>
+     {/* Bottom Bar */}
+<div className="border-t border-gray-700 mt-16 pt-6 text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center gap-4">
+
+  <p>© 2025 Beneicon Pixel LLP. All rights reserved.</p>
+
+  {/* Legal Links */}
+  <div className="flex flex-wrap gap-4 text-center">
+    <Link to="/privacy-policy" className="hover:text-white transition">
+      Privacy Policy
+    </Link>
+    <Link to="/disclaimer" className="hover:text-white transition">
+      Disclaimer
+    </Link>
+    <Link to="/terms-of-use" className="hover:text-white transition">
+      Terms of Use
+    </Link>
+    <Link to="/terms-conditions" className="hover:text-white transition">
+      Terms & Conditions
+    </Link>
+  </div>
+
+  <p>
+    Designed & Developed by{" "}
+    <a
+      href="https://brainixt.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-white transition"
+    >
+      Brainixt
+    </a>
+  </p>
+
+</div>
 
     </footer>
   );

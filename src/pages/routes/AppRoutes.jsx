@@ -37,6 +37,11 @@ import DigitalStandeeA43 from "../Digital-Standee/StandeeA43";
 import DigitalStandeeI43 from "../Digital-Standee/StandeeI-43";
 import DigitalStandeeI50 from "../Digital-Standee/StandeeI50";
 import DigitalStandeeI55 from "../Digital-Standee/StandeeI55";
+// Footer
+import PrivacyPolicy from "../Footer/Privacy";
+import Disclaimer from "../Footer/Disclaimer";
+import TermsOfUse from "../Footer/TermU";
+import TermsConditions from "../Footer/TermsC";
 
 
 const AppRoutes = () => {
@@ -86,6 +91,12 @@ const AppRoutes = () => {
       <Route path="/DigitalStandeeI43" element={<DigitalStandeeI43 />} />
       <Route path="/DigitalStandeeI50" element={<DigitalStandeeI50 />} />
       <Route path="/DigitalStandeeI55" element={<DigitalStandeeI55/>}/>
+      {/* Footer */}
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path="/terms-of-use" element={<TermsOfUse />} />
+        <Route path="/terms-conditions" element={<TermsConditions />} />
+
     </Routes>
   );
 };
