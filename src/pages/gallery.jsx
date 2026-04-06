@@ -2,32 +2,19 @@ import React, { useState } from "react";
 
 import g1 from "../Assets/products/outdoor4.jpg";
 import g2 from "../Assets/products/indoorp4.jpg";
-import g3 from "../Assets/LED panel Design/Panel11.jpg";
 import g4 from "../Assets/products/indoor-p18.png";
 import g5 from "../Assets/products/indoor-p15.jpg";
-import g6 from "../Assets/LED panel Design/PAnel12.jpg";
 import g7 from "../Assets/indoor4.jpeg";
 import g8 from "../Assets/asset03.jpg";
-import g9 from "../Assets/LED panel Design/PAnel8.jpg";
 import g10 from "../Assets/asset05.jpg";
 import g11 from "../Assets/asset06.jpg";
-import g12 from "../Assets/LED panel Design/Panel9.jpg";
 import g13 from "../Assets/indoor-led.jpg";
 import g14 from "../Assets/indoor-led2.jpg";
-import g15 from "../Assets/LED panel Design/Panel10.jpg";
 import g16 from "../Assets/LED Video Wall Indoor P-2.5.jpg";
 import g17 from "../Assets/outdoor-led.jpg";
-import g18 from "../Assets/LED panel Design/PAnel3.jpg";
 import g19 from "../Assets/outdoorads.jpeg";
 import g20 from "../Assets/p6.jpeg";
 import g21 from "../Assets/LED panel Design/LEd complete.jpg";
-import g22 from"../Assets/LED panel Design/Panel7.jpg";
-import g23 from "../Assets/LED panel Design/Panel6.jpg";
-import g24 from "../Assets/LED panel Design/Panel5.jpg";
-import g25 from "../Assets/LED panel Design/Panel4.jpg";
-import g26 from "../Assets/LED panel Design/Panel1.jpg";
-import g27 from "../Assets/LED panel Design/frame1.jpg";
-import g28 from "../Assets/LED panel Design/frame7.jpg";
 import g29 from "../Assets/Product/LED P7.jpeg";
 import g30 from "../Assets/Product/LEDP8.jpeg";
 import g31 from "../Assets/Product/LEDP6.jpeg";
@@ -41,32 +28,19 @@ import g36 from "../Assets/Product/LED P1.jpeg";
 const galleryData = [
   { img: g1, category: "LED Complete Project" },
   { img: g2, category: "Audio Visuals" },
-  { img: g3, category: "LED Panel Design" },
   { img: g4, category: "LED Complete Project" },
   { img: g5, category: "Audio Visuals" },
-  { img: g6, category: "LED Panel Design"},
   {img: g7, category: "LED Complete Project"},
   {img: g8, category: "Audio Visuals"},
-  {img: g9, category: "LED Panel Design"},
   {img:g10, category: "LED Complete Project"},
   {img:g11, category: "Audio Visuals"},
-  {img:g12, category: "LED Panel Design"},
   {img:g13, category: "LED Complete Project"},
   {img:g14, category: "Audio Visuals"},
-  {img:g15, category: "LED Panel Design"},
   {img:g16, category: "LED Complete Project"},
   {img:g17, cateogry: "Audio Visuals"},
-  {img:g18, category: "LED Panel Design"},
   {img:g19, category: "LED Complete Project"},
   {img:g20, category: "LED Complete Project"},
   {img:g21, category: "LED Complete Project"},
-  {img:g22, category: "LED Panel Design"},
-  {img:g23, category: "LED Panel Design"},
-  {img:g24, category: "LED Panel Design"},
-  {img:g25, category: "LED Panel Design"},
-  {img:g26, category: "LED Panel Design"},
-  {img:g27, category: "LED Panel Design"},
-  {img:g28, category: "LED Panel Design"},
   {img:g29, category: "LED Complete Project"},
   {img:g30, category: "LED Complete Project"},
   {img:g31, category: "LED Complete Project"},
@@ -84,7 +58,6 @@ const Gallery = () => {
   const categories = [
     "All",
     "LED Complete Project",
-    "LED Panel Design",
   ];
 
   const filteredImages =
