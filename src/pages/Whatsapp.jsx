@@ -1,7 +1,7 @@
 import React from "react";
 
 const WhatsAppButton = () => {
-  const phoneNumber = "7065993135"; // Replace with your WhatsApp number
+  const phoneNumber = "7065993135";
   const message = "Hello! I would like to chat.";
 
   return (
@@ -9,7 +9,7 @@ const WhatsAppButton = () => {
       href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-5 right-5 w-16 h-16 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-200 z-50"
+      className="fixed top-1/2 right-5 -translate-y-1/2 w-16 h-16 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-200 z-50"
     >
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"

@@ -1,21 +1,15 @@
 import React, { useState } from "react";
 
-import g1 from "../Assets/products/outdoor4.jpg";
-import g2 from "../Assets/products/indoorp4.jpg";
 import g4 from "../Assets/products/indoor-p18.png";
 import g5 from "../Assets/products/indoor-p15.jpg";
-import g7 from "../Assets/indoor4.jpeg";
 import g8 from "../Assets/asset03.jpg";
 import g10 from "../Assets/asset05.jpg";
 import g11 from "../Assets/asset06.jpg";
 import g13 from "../Assets/indoor-led.jpg";
 import g14 from "../Assets/indoor-led2.jpg";
-import g16 from "../Assets/LED Video Wall Indoor P-2.5.jpg";
 import g17 from "../Assets/outdoor-led.jpg";
 import g19 from "../Assets/outdoorads.jpeg";
 import g20 from "../Assets/p6.jpeg";
-import g21 from "../Assets/LED panel Design/LEd complete.jpg";
-import g29 from "../Assets/Product/LED P7.jpeg";
 import g30 from "../Assets/Product/LEDP8.jpeg";
 import g31 from "../Assets/Product/LEDP6.jpeg";
 import g32 from "../Assets/Product/LEDP5.jpeg";
@@ -26,22 +20,17 @@ import g36 from "../Assets/Product/LED P1.jpeg";
 
 // Example structure — continue for all 62
 const galleryData = [
-  { img: g1, category: "LED Complete Project" },
-  { img: g2, category: "Audio Visuals" },
   { img: g4, category: "LED Complete Project" },
-  { img: g5, category: "Audio Visuals" },
-  {img: g7, category: "LED Complete Project"},
+  {img: g5, category: "Audio Visuals"},
   {img: g8, category: "Audio Visuals"},
   {img:g10, category: "LED Complete Project"},
-  {img:g11, category: "Audio Visuals"},
-  {img:g13, category: "LED Complete Project"},
-  {img:g14, category: "Audio Visuals"},
-  {img:g16, category: "LED Complete Project"},
+  {img:g11, category: "Audio Visuals"},{
+  img:g13, category: "Audio Visuals"
+  },
+  {img:g14, category:"Audio Visuals"},
   {img:g17, cateogry: "Audio Visuals"},
-  {img:g19, category: "LED Complete Project"},
+  {img: g19, cateogry:"Audio Visuals"},
   {img:g20, category: "LED Complete Project"},
-  {img:g21, category: "LED Complete Project"},
-  {img:g29, category: "LED Complete Project"},
   {img:g30, category: "LED Complete Project"},
   {img:g31, category: "LED Complete Project"},
   {img:g32, category: "LED Complete Project"},
